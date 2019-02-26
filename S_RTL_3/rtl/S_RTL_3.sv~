@@ -30,7 +30,16 @@ begin
 	
 	else
 	begin
-		dco <= dbo;
+		dao <= di;
 	end
+end
+
+always_ff @ (posedge clkAB)
+begin
+	if(rst)
+	dco <= 1'b0;
+	else
+	begin
+		dco <= dbo;
 end
 endmodule
