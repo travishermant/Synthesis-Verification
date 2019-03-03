@@ -19,23 +19,23 @@ logic slow_clk;
 
 always @(*)
 begin
-	en <= div_cnt[1] & div_cnt[0]; 
-	slow_clk <= #10 div_cnt [0];
+	en = div_cnt[1] & div_cnt[0]; 
+	slow_clk = div_cnt [0];
 end
 
 // Large delay cloud 1
 always @(*)
 begin
-	comb1 [3] <= #100 synch_reg [2] | synch_reg[1];
-	comb1 [2] <= #100 synch_reg [2];
-	comb1 [1] <= #100 synch_reg [1];
-	comb1 [0] <= #100 synch_reg [1] & synch_reg[0];
+	comb1 [3] = synch_reg [3] | synch_reg[1];
+	comb1 [2] = synch_reg [2] & synch_reg[1];
+	comb1 [1] = synch_reg [1];
+	comb1 [0] = synch_reg [1] & synch_reg[0];
 end
 
 // Large delay cloud 2
 always @(*)
 begin
-	comb2 <= #400 ~decode_reg;
+	comb2 = ~decode_reg;
 end
 
 /*
@@ -59,8 +59,8 @@ end
 // Sync detector
 always_ff @ (posedge fast_clk)
 begin
-	div_cnt [1] = fast_clk;
-	div_cnt [0] = fast_clk;
+	div_cnt [1] = 1'b1;
+	div_cnt [0] = 1'b1;
 end
 
 // Slow domain registers 1

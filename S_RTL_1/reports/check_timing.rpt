@@ -1,2 +1,28 @@
-Error: Current design is not defined. (UID-4)
-0
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+shift_reg_reg[0]/D
+shift_reg_reg[1]/D
+shift_reg_reg[2]/D
+shift_reg_reg[3]/D
+synch_reg_reg[0]/D
+synch_reg_reg[1]/D
+synch_reg_reg[2]/D
+synch_reg_reg[3]/D
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1

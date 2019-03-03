@@ -1,2 +1,84 @@
-Error: Current design is not defined. (UID-4)
-0
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : qor
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Sat Mar  2 18:17:38 2019
+****************************************
+
+
+  Timing Path Group (none)
+  -----------------------------------
+  Levels of Logic:              0.000
+  Critical Path Length:         0.003
+  Critical Path Slack:         uninit
+  Critical Path Clk Period:       n/a
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                 22
+  Buf/Inv Cell Count:               0
+  Buf Cell Count:                   0
+  Inv Cell Count:                   0
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:         6
+  Sequential Cell Count:           16
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:          11.182
+  Noncombinational Area:      105.724
+  Buf/Inv Area:                 0.000
+  Total Buffer Area:            0.000
+  Total Inverter Area:          0.000
+  Macro/Black Box Area:         0.000
+  Net Area:                     4.495
+  -----------------------------------
+  Cell Area:                  116.906
+  Design Area:                121.401
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:            30
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: eve.ece.pdx.edu
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                   0.000
+  Logic Optimization:                 0.030
+  Mapping Optimization:               0.153
+  -----------------------------------------
+  Overall Compile Time:               1.926
+  Overall Compile Wall Clock Time:    2.195
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.000  TNS: 0.000  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.000  TNS: 0.000  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

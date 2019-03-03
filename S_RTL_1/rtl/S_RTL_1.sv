@@ -26,8 +26,8 @@ end
 // Large delay cloud 1
 always @(*)
 begin
-	comb1 [3] = synch_reg [2] | synch_reg[1];
-	comb1 [2] = synch_reg [2];
+	comb1 [3] = synch_reg [3] | synch_reg[1];
+	comb1 [2] = synch_reg [2] & synch_reg[1];
 	comb1 [1] = synch_reg [1];
 	comb1 [0] = synch_reg [1] & synch_reg[0];
 end
@@ -35,7 +35,10 @@ end
 // Large delay cloud 2
 always @(*)
 begin
-	comb2 = ~decode_reg;
+	comb2 [3] = decode_reg [3] | decode_reg[1];
+	comb2 [2] = decode_reg [2] & decode_reg[1];
+	comb2 [1] = decode_reg [1];
+	comb2 [0] = decode_reg [1] & decode_reg[0];
 end
 
 /*
@@ -57,10 +60,11 @@ begin
 end
 
 // Sync detector
+// This needs to be fixed   		!!
 always_ff @ (posedge fast_clk)
 begin
-	div_cnt [1] = fast_clk;
-	div_cnt [0] = fast_clk;
+	div_cnt [1] = 1'b1;
+	div_cnt [0] = 1'b1;
 end
 
 // Slow domain registers 1
