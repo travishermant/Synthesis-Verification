@@ -25,6 +25,14 @@ set target_library "saed32rvt_ff1p16v125c.db"
 set link_library   "saed32rvt_ff1p16v125c.db"
 
 create_clock -name "fast_clk" -period 1.0 -waveform {0.0 0.5} fast_clk
+set_clock_latency 0.1 fast_clk
+create_generated_clk slow_clk -source fast_clk -divide_by 4
+set_multicycle -from fast_clk -to slow_clk -setup 2
+set_multicycle -from fast_clk -to slow_clk -hold 1
+
+set_false_path -from fast_clk -to slow_clk
+set_false_path -from slow_clk -to fast_clk
+
 
 # Analyzing the current design
 analyze -format sverilog /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/rtl/S_RTL_1.sv

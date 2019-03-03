@@ -4,7 +4,7 @@ Information: Updating design information... (UID-85)
 Report : qor
 Design : sync_counter
 Version: L-2016.03-SP3
-Date   : Sat Mar  2 18:17:38 2019
+Date   : Sun Mar  3 14:02:48 2019
 ****************************************
 
 
@@ -66,10 +66,10 @@ Date   : Sat Mar  2 18:17:38 2019
   -----------------------------------------
   Resource Sharing:                   0.000
   Logic Optimization:                 0.030
-  Mapping Optimization:               0.153
+  Mapping Optimization:               0.149
   -----------------------------------------
-  Overall Compile Time:               1.926
-  Overall Compile Wall Clock Time:    2.195
+  Overall Compile Time:               1.835
+  Overall Compile Wall Clock Time:    2.102
 
   --------------------------------------------------------------------
 
