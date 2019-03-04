@@ -1,3 +1,4 @@
+Warning: Design 'sync_counter' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
 
 Information: Checking generated_clocks...
 
@@ -11,14 +12,26 @@ Warning: The following end-points are not constrained for maximum delay.
 
 End point
 ---------------
-shift_reg_reg[0]/D
-shift_reg_reg[1]/D
-shift_reg_reg[2]/D
-shift_reg_reg[3]/D
-synch_reg_reg[0]/D
-synch_reg_reg[1]/D
-synch_reg_reg[2]/D
-synch_reg_reg[3]/D
+decode_reg[0]/D
+decode_reg[1]/D
+decode_reg[2]/D
+decode_reg[3]/D
+multiply[0]
+multiply[1]
+multiply[2]
+multiply[3]
+multiply_reg[0]/D
+multiply_reg[1]/D
+multiply_reg[2]/D
+multiply_reg[3]/D
+shift_reg[0]/D
+shift_reg[1]/D
+shift_reg[2]/D
+shift_reg[3]/D
+synch_reg[0]/D
+synch_reg[1]/D
+synch_reg[2]/D
+synch_reg[3]/D
 
 Information: Checking pulse_clock_cell_type...
 

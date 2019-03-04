@@ -1,3 +1,4 @@
+Warning: Design 'sync_counter' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
  
 ****************************************
 Report : constraint
@@ -5,7 +6,7 @@ Report : constraint
         -verbose
 Design : sync_counter
 Version: L-2016.03-SP3
-Date   : Sun Mar  3 14:02:48 2019
+Date   : Sun Mar  3 22:38:36 2019
 ****************************************
 
 This design has no violated constraints.
