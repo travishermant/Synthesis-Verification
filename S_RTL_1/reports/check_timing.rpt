@@ -5,6 +5,12 @@ Information: Checking generated_clocks...
 Information: Checking loops...
 
 Information: Checking no_input_delay...
+Warning: The following input ports have no clock_relative delay specified, the command set_input_delay without -clock option will be ignored. (TIM-216)
+--------------------
+data[3]
+data[2]
+data[1]
+data[0]
 
 Information: Checking unconstrained_endpoints...
 
@@ -28,10 +34,6 @@ shift_reg[0]/D
 shift_reg[1]/D
 shift_reg[2]/D
 shift_reg[3]/D
-synch_reg[0]/D
-synch_reg[1]/D
-synch_reg[2]/D
-synch_reg[3]/D
 
 Information: Checking pulse_clock_cell_type...
 

@@ -1,0 +1,66 @@
+Initializing gui preferences from file  /u/thermant/.synopsys_dv_prefs.tcl
+dc_shell> man CMD-005
+N.  Messages                                                 Command Reference
+                                   messages
+
+NAME
+       CMD-005 (error) unknown command '%s'
+
+DESCRIPTION
+       The command is not recognized.
+
+WHAT NEXT
+       Look  for a typographical error in the command.  If it is correct, make
+       sure that the program you are running supports the command, or you have
+       the license to use the command.
+
+G-2012.06               Copyright (c) 2012 Synopsys, Inc. All rights reserved.
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> man VER-708
+N.  Messages                                                 Command Reference
+                                   messages
+
+NAME
+       VER-708  (warning) %s The construct '%s' is not supported in synthesis;
+       it is ignored.
+
+DESCRIPTION
+       This warning message issues when the cited construct cannot be  synthe-
+       sized,  but might be ignorable. This can lead to behavior which differs
+       from simulation.
+
+WHAT NEXT
+       Exclude non-synthesizable constructs by enclosing  the  code  with  the
+       conditional compilation directives shown below.
+
+           module mt( a );
+              logic static_init
+           `ifndef SYNTHESIS
+                               = 1'b0
+           `endif
+                                  ;
+              always ...
+                 if( !static_init ) ...
+
+G-2012.06               Copyright (c) 2012 Synopsys, Inc. All rights reserved.
+dc_shell> man CMD-036
+N.  Messages                                                 Command Reference
+                                   messages
+
+NAME
+       CMD-036 (error) Value for list '%s' must have %s elements.
+
+DESCRIPTION
+       The  value given for the list argument does not have the correct number
+       of elements.  Some commands have list arguments which require either  a
+       specific  number or an even number of elements.  The message will indi-
+       cate which it is.
+
+WHAT NEXT
+       Supply a correct number of elements in the list.
+
+G-2012.06               Copyright (c) 2012 Synopsys, Inc. All rights reserved.
+dc_shell> 

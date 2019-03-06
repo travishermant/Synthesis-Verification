@@ -22,36 +22,44 @@ set link_library "* saed32hvt_ss0p75v125c.db saed32lvt_ss0p75v125c.db saed32rvt_
  saed32sram_ss0p95v125c.db dw_foundation.sldb"
 
 set target_library "saed32rvt_ff1p16v125c.db"
-set link_library   "saed32rvt_ff1p16v125c.db"
-
-create_clock -name "fast_clk" fast_clk #-period 1.0 -waveform {0.0 0.5}
-create_clock -name "slow_clk"
-
-set_clock_latency 0.1 fast_clk
-create_generated_clk slow_clk -source fast_clk -divide_by 4
-set_multicycle -from fast_clk -to slow_clk -setup 2
-set_multicycle -from fast_clk -to slow_clk -hold 1
-
-set_false_path -from fast_clk -to slow_clk
-set_false_path -from slow_clk -to fast_clk
+set link_library   "saed32rvt_ff1p16v125c.db dw_foundation.sldb"
 
 
 # Analyzing the current design
 analyze -format sverilog /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/rtl/S_RTL_1.sv
+
 
 # Current design after anlayzing
 current_design
 
 # Elaborate the design
 elaborate sync_counter
-elaborate div_cnt
+
+
+
+create_clock fast_clk -period 1.0
+# -waveform {0.0 0.5} fast_clk
+#create_clock -name "slow_clk"
+
+set_clock_latency 0.1 fast_clk
+create_generated_clock slow_clk -source fast_clk -divide_by 4 [get_pins div_cnt]
+set_clock_latency 0.4 slow_clk
+set_multicycle -from fast_clk -to slow_clk -setup 2
+set_multicycle -from fast_clk -to slow_clk -hold 1
+
+#set_false_path -from fast_clk -to slow_clk
+#set_false_path -from slow_clk -to fast_clk
 
 set_max_area 9000
 
+#set_input_delay 0.1 data[3] -clock fast_clk
+#set_input_delay 0.1 data[2] -clock fast_clk
+#set_input_delay 0.1 data[1] -clock fast_clk
+#set_input_delay 0.1 data[0] -clock fast_clk
 
-
-
-
+group_path -name INPUTS -from [ get_ports -filter "direction==in&&full_name!~*clk*" ]
+group_path -name OUTPUTS -to [ get_ports -filter "direction==out" ]
+group_path -name FEEDTHROUGH -from [all_inputs ] -to [all_outputs] 
 
 
 # compile map the sequential cell exactly as in the rtl

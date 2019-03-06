@@ -86,7 +86,7 @@ endmodule
 module div_cnt(input logic fast_clk, output logic slow_clk, output logic en);
 	logic [1:0] count = 2'b00;
 	assign slow_clk = count[1];
-	assign en = slow_clk & c[0];
+	assign en = count[1] & count[0];
 	
 	always_ff @ (posedge fast_clk)
 	begin
