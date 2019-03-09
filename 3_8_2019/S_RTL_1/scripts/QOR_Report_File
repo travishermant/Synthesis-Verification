@@ -1,0 +1,96 @@
+ 
+****************************************
+Report : qor
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Wed Mar  6 19:47:54 2019
+****************************************
+
+
+  Timing Path Group 'INPUTS'
+  -----------------------------------
+  Levels of Logic:              0.000
+  Critical Path Length:         0.012
+  Critical Path Slack:          0.869
+  Critical Path Clk Period:     1.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+  Timing Path Group 'fast_clk'
+  -----------------------------------
+  Levels of Logic:              3.000
+  Critical Path Length:         0.867
+  Critical Path Slack:          0.116
+  Critical Path Clk Period:     1.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          1
+  Hierarchical Port Count:          3
+  Leaf Cell Count:                 30
+  Buf/Inv Cell Count:               2
+  Buf Cell Count:                   0
+  Inv Cell Count:                   2
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:        12
+  Sequential Cell Count:           18
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:          27.193
+  Noncombinational Area:      119.956
+  Buf/Inv Area:                 2.541
+  Total Buffer Area:            0.000
+  Total Inverter Area:          2.541
+  Macro/Black Box Area:         0.000
+  Net Area:                     7.173
+  -----------------------------------
+  Cell Area:                  147.149
+  Design Area:                154.323
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:            40
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: eve.ece.pdx.edu
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                   0.003
+  Logic Optimization:                 0.079
+  Mapping Optimization:               0.179
+  -----------------------------------------
+  Overall Compile Time:               1.921
+  Overall Compile Wall Clock Time:    1.629
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.000  TNS: 0.000  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.000  TNS: 0.000  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

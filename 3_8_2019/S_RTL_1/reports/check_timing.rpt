@@ -1,0 +1,34 @@
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+decode_reg[0]/D
+decode_reg[1]/D
+decode_reg[2]/D
+decode_reg[3]/D
+decode_reg[3]/SETB
+multiply[0]
+multiply[1]
+multiply[2]
+multiply[3]
+multiply_reg[0]/D
+multiply_reg[1]/D
+multiply_reg[2]/D
+multiply_reg[3]/D
+multiply_reg[3]/SETB
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1

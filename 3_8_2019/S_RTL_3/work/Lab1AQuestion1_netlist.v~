@@ -1,0 +1,9 @@
+
+module AND ( ain, bin, cout );
+  input ain, bin;
+  output cout;
+
+
+  AND2X1 U2 ( .A1(bin), .A2(ain), .Y(cout) );
+endmodule
+
