@@ -1,0 +1,539 @@
+CRTE_SNAPSHOT_START
+
+SECTION_CRTE_VERSION
+3.0
+
+SECTION_PID
+28145
+
+SECTION_POLLING_INTERVAL
+5
+
+SECTION_DATE_TIME
+Tue Mar 05 21:12:32 PST 2019 (1551849152)
+
+SECTION_OS_VERSION
+osname: Linux
+hostname: eve.ece.pdx.edu
+arch: x86_64
+release_version: 2.6.18-419.el5
+
+SECTION_IPC_INFO
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x00000000 4751362    root      644        80         2                       
+0x00000000 4784132    root      644        16384      2                       
+0x00000000 4816901    root      644        280        2                       
+0x00000000 1611431957 diazl     644        110592     2          dest         
+0x00000000 1626079254 thermant  600        196608     2          dest         
+0x00000000 1694892073 huanle    644        110592     3          dest         
+0xabbaca01 19103798   8718      666        4          22                      
+0x00000000 1664385082 thermant  600        393216     2          dest         
+0x00000000 1627947067 ting3     644        110592     1          dest         
+0x00000000 1292533825 vbaddam   644        110592     1          dest         
+0x00000000 334266440  gmw       644        110592     1          dest         
+0x00000000 1110835SECTION_ULIMIT
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1031617
+max locked memory       (kbytes, -l) 32
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 10240
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 1031617
+virtual memory          (kbytes, -v) 67108864
+file locks                      (-x) unlimited
+
+SECTION_SYSCONF
+_SC_THREAD_SAFE_FUNCTIONS= 200112
+_SC_CLK_TCK= 100
+_SC_OPEN_MAX= 1024
+_SC_PAGE_SIZE= 4096
+_SC_ARG_MAX= 131072
+_SC_CHILD_MAX= 999
+_SC_LINE_MAX= 2048
+
+SECTION_FULL_COMMAND
+/pkgs/synopsys/2016/dft_compiler/linux64/syn/bin/common_shell_exec -shell dc_shell -r /pkgs/synopsys/2016/dft_compiler
+
+SECTION_CPUINFO
+total_core: 32
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+model_name:         Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm syscall nx pdpe1gb rdtscp lm constant_tsc ida nonstop_tsc arat pni monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr sse4_1 sse4_2 popcnt lahf_lm
+cpu_family: 6
+core_frequency_mhz: 2600
+core_per_socket: 0
+stepping: 7
+cache_size_kb: 20480
+ht: 0
+
+SECTION_OS_RELEASE_VERSION
+Red Hat Enterprise Linux Server release 5.11 (Tikanga)
+
+
+SECTION_QSC_CHECKER
+
+        qscchk.sh Version 1.6.3, 12 November 2014
+        qscchk.dat QSC K Rev: 17, 17 November 2014
+     Copyright (c) 1988-2014 by Synopsys, Inc.
+             All RIGHTS RESERVED
+
+ 
+No QSC information for the K Synopsys release, on the
+64 bit amd platform running the RHEL_V5.11 Operating System 
+could be found in datafile /tmp/sdp_28145_0/qscchk.dat
+ 
+
+Return code from the QSC checker script is 256
+
+SECTION_SYS/VM
+/proc/sys/vm/block_dump:0
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:40
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/drop_caches:0
+/proc/sys/vm/flush_mmap_pages:1
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/lowmem_reserve_ratio:256	256	32
+/proc/sys/vm/max_map_count:65536
+/proc/sys/vm/max_reclaims_in_progress:0
+/proc/sys/vm/max_writeback_pages:1024
+/proc/sys/vm/min_free_kbytes:46011
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:4096
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_pdflush_threads:2
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/pagecache:100
+/proc/sys/vm/panic_on_oom:0
+/proc/sys/vm/percpu_pagelist_fraction:0
+/proc/sys/vm/swap_token_timeout:300	0
+/proc/sys/vm/swappiness:60
+/proc/sys/vm/topdown_allocate_fast:0
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/vm_devzero_optimized:1
+/proc/sys/vm/zone_reclaim_interval:30
+/proc/sys/vm/zone_reclaim_mode:0
+
+
+SECTION_SWAP
+Error: Could not collect the data.
+
+CRTE_SNAPSHOT_END
+
+CRTE_PERIODIC_START 1 1551849152788
+
+SECTION_MPSTAT
+total_core: 32
+
+CPU     %user   %kernel %wait   %idle   
+all   1.280816 0.369645 0.081895 98.267639
+0     0.716308 0.282843 0.067852 98.932991
+1     0.791261 0.287080 0.062276 98.859375
+2     0.897269 0.256147 0.064409 98.782173
+3     0.812100 0.257922 0.061145 98.868828
+4     0.554960 0.233968 0.085658 99.125412
+5     0.535149 0.201482 0.062957 99.200409
+6     0.524286 0.211644 0.084180 99.179886
+7     0.508279 0.191596 0.066221 99.233902
+8     0.564230 0.229112 0.094262 99.112396
+9     0.573363 0.410108 0.102868 98.913658
+10     0.610160 0.238111 0.096939 99.054794
+11     1.159576 0.229751 0.079143 98.531532
+12     0.657969 0.261713 0.100240 98.980080
+13     0.627554 0.223095 0.075177 99.074173
+14     0.823608 0.268868 0.081950 98.825569
+15     0.952631 0.343712 0.093249 98.610405
+16     1.062698 0.272621 0.065789 98.598892
+17     1.050243 0.257540 0.063418 98.628792
+18     1.194908 0.528492 0.064558 98.212036
+19     1.320343 0.547259 0.062685 98.069717
+20     1.217706 0.369234 0.067426 98.345627
+21     1.176170 0.309825 0.061611 98.452393
+22     1.240917 0.349808 0.072968 98.336304
+23     1.244071 0.267693 0.063407 98.424835
+24     1.612243 0.406485 0.092714 97.888550
+25     1.538041 0.596829 0.076275 97.788857
+26     1.738626 0.470097 0.106073 97.685204
+27     2.001876 0.478913 0.105953 97.413261
+28     2.076699 0.594271 0.117951 97.211075
+29     1.997345 0.532781 0.088688 97.381187
+30     4.799276 0.784063 0.102660 94.313995
+31     4.406279 0.935597 0.129940 94.528183
+
+SECTION_PID_STATUS
+name: common_shell_ex
+state: 1
+vmsize: 1045968
+vmrss: 261600
+vmdata: 683068
+vmstk: 212
+vmexe: 252556
+vmlib: 8408
+threads: 1
+
+SECTION_PROCESS_CPU_UTIL
+pid: 28145
+cpu_total_time: 122207097571
+cpu_used_time: 10893
+cpu_p: 
+
+SECTION_SYSTEM_CPU_UTIL
+sys_cpu_p: 
+
+SECTION_MEMINFO
+memtotal: 132050764
+memfree: 42608000
+cached: 51352568
+swapcached: 0
+active: 47356548
+swaptotal: 0
+swapfree: 0
+
+SECTION_SMAPS
+shared_kb: 65104
+private_kb: 196496
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        37G  0G  35G    1
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          10246368  36421 10209947   4294939363
+
+SECTION_CWD
+Filesystem  Size  Used Avail Use%
+filesystem        5338G  21G  5317G    0
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          2561959951  485866 2561474085   100
+
+SECTION_SWAP_RATE
+Error: Could not collect the data.
+
+SECTION_FD_SIZE
+files: 18
+total_size: 2161708
+
+SECTION_NET_INTERFACE
+total_eth_avbl: 6
+
+name net_rx_err net_rx_drp net_tx_err net_tx_drp 
+    lo:        0        0        0        0
+  eth0:        0        13        0        0
+  eth1:               0        0        0        0
+  eth2:               0        0        0        0
+  eth3:               0        0        0        0
+  sit0:               0        0        0        0
+
+SECTION_NFSSTAT
+readlink: 0
+write: 28
+getattr: 58
+retrans: 0
+raw_data: 
+net 0 0 0 0
+rpc 3188676034 608 0
+proc2 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+proc3 22 0 1861134975 26171513 33597848 245823398 214684 25725685 896406169 11249337 426333 52428 231 8123649 196429 3423063 162950 6939 8223265 6501840 703004 0 60530970
+proc4 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+SECTION_THREAD_CPU_UTIL
+28145 : 28145 (common_shell_ex) R 2909 28145 2909 34845 28145 4202496 533085 448702 0 0 6944 331 3419 199 17 0 1 0 3818557494 1071071232 65401 18446744073709551615 4194304 262811573 140736222734000 18446744073709551615 266246085232 0 1024 4096 1135636223 0 0 0 17 31 0 0 17
+
+CRTE_PERIODIC_END 1 1551849152788

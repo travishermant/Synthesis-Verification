@@ -1,0 +1,205 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Sat Mar  9 17:51:01 2019
+****************************************
+
+
+  Startpoint: synch_reg[3]
+              (rising edge-triggered flip-flop clocked by fast_clk)
+  Endpoint: decode_reg[3]
+            (rising edge-triggered flip-flop clocked by slow_clk)
+  Path Group: slow_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sync_counter       ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock fast_clk (rise edge)              5.000      5.000
+  clock network delay (ideal)             0.100      5.100
+  synch_reg[3]/CLK (DFFX1_RVT)            0.000      5.100 r
+  synch_reg[3]/QN (DFFX1_RVT)             0.040      5.140 f
+  decode_reg[3]/SETB (DFFSSRX1_RVT)       0.011      5.151 f
+  data arrival time                                  5.151
+
+  clock slow_clk (rise edge)              8.000      8.000
+  clock network delay (ideal)             0.400      8.400
+  decode_reg[3]/CLK (DFFSSRX1_RVT)        0.000      8.400 r
+  library hold time                       0.014      8.414
+  data required time                                 8.414
+  -----------------------------------------------------------
+  data required time                                 8.414
+  data arrival time                                 -5.151
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -3.264
+
+
+  Startpoint: synch_reg[2]
+              (rising edge-triggered flip-flop clocked by fast_clk)
+  Endpoint: decode_reg[2]
+            (rising edge-triggered flip-flop clocked by slow_clk)
+  Path Group: slow_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sync_counter       ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock fast_clk (rise edge)              5.000      5.000
+  clock network delay (ideal)             0.100      5.100
+  synch_reg[2]/CLK (DFFX1_RVT)            0.000      5.100 r
+  synch_reg[2]/Q (DFFX1_RVT)              0.057      5.157 f
+  decode_reg[2]/D (DFFSSRX1_RVT)          0.040      5.197 f
+  data arrival time                                  5.197
+
+  clock slow_clk (rise edge)              8.000      8.000
+  clock network delay (ideal)             0.400      8.400
+  decode_reg[2]/CLK (DFFSSRX1_RVT)        0.000      8.400 r
+  library hold time                      -0.004      8.396
+  data required time                                 8.396
+  -----------------------------------------------------------
+  data required time                                 8.396
+  data arrival time                                 -5.197
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -3.198
+
+
+  Startpoint: synch_reg[0]
+              (rising edge-triggered flip-flop clocked by fast_clk)
+  Endpoint: decode_reg[0]
+            (rising edge-triggered flip-flop clocked by slow_clk)
+  Path Group: slow_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sync_counter       ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock fast_clk (rise edge)              5.000      5.000
+  clock network delay (ideal)             0.100      5.100
+  synch_reg[0]/CLK (DFFX1_RVT)            0.000      5.100 r
+  synch_reg[0]/Q (DFFX1_RVT)              0.053      5.153 r
+  U13/Y (AND2X1_RVT)                      0.058      5.211 r
+  decode_reg[0]/D (DFFX1_RVT)             0.010      5.221 r
+  data arrival time                                  5.221
+
+  clock slow_clk (rise edge)              8.000      8.000
+  clock network delay (ideal)             0.400      8.400
+  decode_reg[0]/CLK (DFFX1_RVT)           0.000      8.400 r
+  library hold time                       0.006      8.406
+  data required time                                 8.406
+  -----------------------------------------------------------
+  data required time                                 8.406
+  data arrival time                                 -5.221
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -3.185
+
+
+  Startpoint: synch_reg[1]
+              (rising edge-triggered flip-flop clocked by fast_clk)
+  Endpoint: decode_reg[1]
+            (rising edge-triggered flip-flop clocked by slow_clk)
+  Path Group: slow_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sync_counter       ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock fast_clk (rise edge)              5.000      5.000
+  clock network delay (ideal)             0.100      5.100
+  synch_reg[1]/CLK (DFFX1_RVT)            0.000      5.100 r
+  synch_reg[1]/Q (DFFX1_RVT)              0.065      5.165 f
+  decode_reg[1]/D (DFFX1_RVT)             0.358      5.523 f
+  data arrival time                                  5.523
+
+  clock slow_clk (rise edge)              8.000      8.000
+  clock network delay (ideal)             0.400      8.400
+  decode_reg[1]/CLK (DFFX1_RVT)           0.000      8.400 r
+  library hold time                      -0.003      8.397
+  data required time                                 8.397
+  -----------------------------------------------------------
+  data required time                                 8.397
+  data arrival time                                 -5.523
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -2.874
+
+
+  Startpoint: synch_reg[1]
+              (rising edge-triggered flip-flop clocked by fast_clk)
+  Endpoint: decode_reg[3]
+            (rising edge-triggered flip-flop clocked by slow_clk)
+  Path Group: slow_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sync_counter       ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock fast_clk (rise edge)              5.000      5.000
+  clock network delay (ideal)             0.100      5.100
+  synch_reg[1]/CLK (DFFX1_RVT)            0.000      5.100 r
+  synch_reg[1]/Q (DFFX1_RVT)              0.065      5.165 f
+  decode_reg[3]/D (DFFSSRX1_RVT)          0.358      5.523 f
+  data arrival time                                  5.523
+
+  clock slow_clk (rise edge)              8.000      8.000
+  clock network delay (ideal)             0.400      8.400
+  decode_reg[3]/CLK (DFFSSRX1_RVT)        0.000      8.400 r
+  library hold time                      -0.007      8.393
+  data required time                                 8.393
+  -----------------------------------------------------------
+  data required time                                 8.393
+  data arrival time                                 -5.523
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -2.870
+
+
+  Startpoint: synch_reg[1]
+              (rising edge-triggered flip-flop clocked by fast_clk)
+  Endpoint: decode_reg[2]
+            (rising edge-triggered flip-flop clocked by slow_clk)
+  Path Group: slow_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sync_counter       ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock fast_clk (rise edge)              5.000      5.000
+  clock network delay (ideal)             0.100      5.100
+  synch_reg[1]/CLK (DFFX1_RVT)            0.000      5.100 r
+  synch_reg[1]/Q (DFFX1_RVT)              0.065      5.165 f
+  decode_reg[2]/RSTB (DFFSSRX1_RVT)       0.358      5.523 f
+  data arrival time                                  5.523
+
+  clock slow_clk (rise edge)              8.000      8.000
+  clock network delay (ideal)             0.400      8.400
+  decode_reg[2]/CLK (DFFSSRX1_RVT)        0.000      8.400 r
+  library hold time                      -0.007      8.393
+  data required time                                 8.393
+  -----------------------------------------------------------
+  data required time                                 8.393
+  data arrival time                                 -5.523
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -2.870
+
+
+1

@@ -1,0 +1,45 @@
+/*
+ECE481 Group 2
+2/25/2019
+Counter with 2 clocks, synthesized with one clock mux
+Provided by Dr. Ataur Patwary
+*/
+
+
+module sync_counter(
+	input logic clkA, clkB, clkC, clkD,
+	input logic rst,
+	input logic cntrlAB, cntrlCD,
+	input logic [1:0] di,
+	output logic dco);
+	
+logic clkAB, clkCD;
+logic [1:0] dao;
+
+always_comb
+begin
+	clkAB = cntrlAB ? clkB : clkA;
+	clkCD = cntrlCD ? clkD : clkC;
+end
+
+always_ff @ (posedge clkAB)
+begin
+	if(rst)
+	dao <= '0;
+	
+	else
+	begin
+		dao <= di;
+	end
+end
+
+always_ff @ (posedge clkCD)
+begin
+	if(rst)
+	dco <= '0;
+	else
+	begin
+		dco <= (dao[0] ^ dao[1]);
+	end
+end
+endmodule
