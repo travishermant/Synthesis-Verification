@@ -1,0 +1,32 @@
+Initializing gui preferences from file  /u/thermant/.synopsys_dv_prefs.tcl
+dc_shell> man UISN-26
+N.  Messages                                                 Command Reference
+                                   messages
+
+NAME
+       UISN-26  (warning) The following synthetic libraries should be added to
+       the list of link libraries: '%s'.
+
+DESCRIPTION
+       You receive this warning message because you  have  executed  the  syn-
+       thetic_library variable and have specified a library that was not spec-
+       ified with the link_library variable.  All synthetic  libraries  speci-
+       fied  with  the  synthetic_library variable must also be specified with
+       the link_library variable.
+
+       For  example,  if  the  synthetic_library  variable  specified  my_syn-
+       lib.sldb,  then  the  link_library variable should also specify my_syn-
+       lib.sldb as shown below.
+
+          target_library = my_techlib.db
+          synthetic_library = my_synlib.sldb
+          link_library = {my_techlib.db my_synlib.sldb}
+
+WHAT NEXT
+       See the DesignWare User Guide for more information.
+
+SEE ALSO
+       link_library (3), synthetic_library (3).
+
+G-2012.06               Copyright (c) 2012 Synopsys, Inc. All rights reserved.
+dc_shell> 

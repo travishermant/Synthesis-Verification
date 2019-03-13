@@ -1,0 +1,17 @@
+ 
+****************************************
+Report : compile_options
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Tue Mar 12 18:10:46 2019
+****************************************
+
+Design                                   Compile Option         Value
+--------------------------------------------------------------------------------
+sync_counter                             flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         isolate_port           disabled
+--------------------------------------------------------------------------------
+1

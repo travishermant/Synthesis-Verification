@@ -1,0 +1,8 @@
+Initializing gui preferences from file  /u/thermant/.synopsys_dv_prefs.tcl
+dc_shell> source ~./profile
+Error: could not open script file "~./profile" (CMD-015)
+dc_shell> source ~/.profile
+dc_shell> exit
+
+Thank you...
+

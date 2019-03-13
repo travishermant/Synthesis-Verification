@@ -1,0 +1,5 @@
+module MUX4(ain, bin, cin, din, sel1, sel0, eout);
+	input ain, bin, cin, din, sel1, sel0;
+	output eout;
+	assign eout <= ((ain & (~sel1) & (~sel0)) | (bin & (~sel1) & sel0) | (cin & sel1 & (~sel0)) | (din & sel1 & sel0));
+endmodule	

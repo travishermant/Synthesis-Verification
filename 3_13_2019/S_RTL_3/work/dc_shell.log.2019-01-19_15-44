@@ -1,0 +1,432 @@
+dc_shell> source ../scripts/simple_and.tcl
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Error:  Unable to open file `/u/ataur/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/HW_LAB1_THERMANT/HW_LAB_1_A/Question3/rtl/Lab1AQuestion1.sv': No such file or directory. (VER-41)
+*** Presto compilation terminated with 1 errors. ***
+Loading db file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/models/saed32rvt_ff1p16v125c.db'
+Error: Current design is not defined. (UID-4)
+Loading db file '/pkgs/synopsys/G-2012.06/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/G-2012.06/libraries/syn/standard.sldb'
+  Loading link library 'saed32rvt_ff1p16v125c'
+  Loading link library 'gtech'
+Error: Cannot find the design 'AND' in the library 'WORK'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_inputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_outputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_sequentials 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+dc_shell> source ../scripts/simple_and.tcl
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Error:  Unable to open file `/u/ataur/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/HW_LAB1_THERMANT/HW_LAB_1_A/Question3/rtl/Lab1AQuestion1.sv': No such file or directory. (VER-41)
+*** Presto compilation terminated with 1 errors. ***
+Error: Current design is not defined. (UID-4)
+Error: Cannot find the design 'MUX4' in the library 'WORK'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_inputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_outputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_sequentials 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+dc_shell> clear
+Error: unknown command 'clear' (CMD-005)
+dc_shell> clear all
+Error: unknown command 'clear' (CMD-005)
+dc_shell> source ../scripts/simple_and.tcl
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Error:  Unable to open file `/u/ataur/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/HW_LAB1_THERMANT/HW_LAB_1_A/Question3/rtl/Lab1AQuestion1.sv': No such file or directory. (VER-41)
+*** Presto compilation terminated with 1 errors. ***
+Error: Current design is not defined. (UID-4)
+Error: Cannot find the design 'MUX4' in the library 'WORK'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_inputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_outputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_sequentials 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+dc_shell> source ../scripts/simple_and.tcl
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Error:  Unable to open file `/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/HW_LAB1_THERMANT/HW_LAB_1_A/Question3/rtl/Lab1AQuestion1.sv': No such file or directory. (VER-41)
+*** Presto compilation terminated with 1 errors. ***
+Error: Current design is not defined. (UID-4)
+Error: Cannot find the design 'MUX4' in the library 'WORK'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_inputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_outputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_sequentials 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+dc_shell> source ../scripts/simple_and.tcl
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Error:  Unable to open file `/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/HW_LAB1_THERMANT/HW_LAB_1_A/Question3/rtl/Lab1AQuestion1.sv': No such file or directory. (VER-41)
+*** Presto compilation terminated with 1 errors. ***
+Error: Current design is not defined. (UID-4)
+Error: Cannot find the design 'MUX4' in the library 'WORK'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_inputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_outputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_sequentials 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+dc_shell> source ../scripts/simple_and.tcl
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/HW_LAB1_THERMANT/HW_LAB_1_A/Question1/rtl/Lab1AQuestion1.sv
+Error:  /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/HW_LAB1_THERMANT/HW_LAB_1_A/Question1/rtl/Lab1AQuestion1.sv:4: Syntax error at or near token '<='. (VER-294)
+*** Presto compilation terminated with 1 errors. ***
+Error: Current design is not defined. (UID-4)
+Error: Cannot find the design 'MUX4' in the library 'WORK'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_inputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_outputs 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Number_of_sequentials 0
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+dc_shell> source ../scripts/simple_and.tcl
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/HW_LAB1_THERMANT/HW_LAB_1_A/Question1/rtl/Lab1AQuestion1.sv
+Presto compilation completed successfully.
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Loading db file '/pkgs/synopsys/G-2012.06/libraries/syn/dw_foundation.sldb'
+Elaborated 1 design.
+Current design is now 'MUX4'.
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | G-2012.06-DWBB_201206.0 |     *     |
+| Licensed DW Building Blocks        | G-2012.06-DWBB_201206.0 |           |
+============================================================================
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'MUX4'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Design 'MUX4' has no optimization constraints set. (OPT-108)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+  Structuring 'MUX4'
+  Mapping 'MUX4'
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+    0:00:01       6.2      0.00       0.0       0.0                          
+Loading db file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/models/saed32rvt_ff1p16v125c.db'
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 6
+Number_of_outputs 1
+Number_of_sequentials 0
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : MUX4
+Version: G-2012.06
+Date   : Sat Jan 19 15:52:55 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U6                        MUX41X1         saed32rvt_ff1p16v125c
+                                                             5.591  
+--------------------------------------------------------------------------------
+Total 1 cells                                                5.591
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : qor
+Design : MUX4
+Version: G-2012.06
+Date   : Sat Jan 19 15:52:55 2019
+****************************************
+
+
+  Timing Path Group (none)
+  -----------------------------------
+  Levels of Logic:              1.000
+  Critical Path Length:         0.084
+  Critical Path Slack:         uninit
+  Critical Path Clk Period:       n/a
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                  1
+  Buf/Inv Cell Count:               0
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:         1
+  Sequential Cell Count:            0
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:           5.591
+  Noncombinational Area:        0.000
+  Net Area:                     0.579
+  -----------------------------------
+  Cell Area:                    5.591
+  Design Area:                  6.170
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:             7
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: eve.ece.pdx.edu
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                   0.000
+  Logic Optimization:                 0.009
+  Mapping Optimization:               0.325
+  -----------------------------------------
+  Overall Compile Time:               1.283
+  Overall Compile Wall Clock Time:    3.069
+
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/HW_LAB1_THERMANT/HW_LAB_1_A/Question1/work/Lab1AQuestion1_netlist.v'.
+ 
+****************************************
+Report : area
+Design : MUX4
+Version: G-2012.06
+Date   : Sat Jan 19 15:52:55 2019
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ff1p16v125c (File: /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/models/saed32rvt_ff1p16v125c.db)
+
+Number of ports:                            7
+Number of nets:                             7
+Number of cells:                            1
+Number of combinational cells:              1
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       1
+
+Combinational area:          5.591168
+Noncombinational area:       0.000000
+Net Interconnect area:       0.579253  
+
+Total cell area:             5.591168
+Total area:                  6.170420
+Loading db file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/models/saed32rvt_ff1p16v125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : MUX4
+Version: G-2012.06
+Date   : Sat Jan 19 15:53:02 2019
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_ff1p16v125c (File: /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/models/saed32rvt_ff1p16v125c.db)
+
+
+Operating Conditions: ff1p16v125c   Library: saed32rvt_ff1p16v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+MUX4                   ForQA             saed32rvt_ff1p16v125c
+
+
+Global Operating Voltage = 1.16 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   3.9206 uW   (99%)
+  Net Switching Power  =  25.0945 nW    (1%)
+                         ---------
+Total Dynamic Power    =   3.9457 uW  (100%)
+
+Cell Leakage Power     =  28.4408 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      3.9206        2.5095e-02        2.8441e+07           32.3865  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total              3.9206 uW     2.5095e-02 uW     2.8441e+07 pW        32.3865 uW
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> write_file -format verilog -output Lab1AQuestion1_netlist.v
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/HW_LAB1_THERMANT/HW_LAB_1_A/Question1/work/Lab1AQuestion1_netlist.v'.
+1
+dc_shell> start_gui
+Current design is 'MUX4'.
+Current design is 'MUX4'.
+dc_shell> 
+Current design is 'MUX4'.
+Loading db file '/pkgs/synopsys/G-2012.06/libraries/syn/generic.sdb'

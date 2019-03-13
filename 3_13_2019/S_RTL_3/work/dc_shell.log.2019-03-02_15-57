@@ -1,0 +1,233 @@
+Initializing gui preferences from file  /u/thermant/.synopsys_dv_prefs.tcl
+dc_shell> start_gui
+4.1
+dc_shell> read_file -format sverilog {/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_3/rtl/S_RTL_3.sv}
+Loading db file '/pkgs/synopsys/2016/dft_compiler/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2016/dft_compiler/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Loading sverilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_3/rtl/S_RTL_3.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Loading db file '/pkgs/synopsys/2016/dft_compiler/libraries/syn/dw_foundation.sldb'
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Compiling source file /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_3/rtl/S_RTL_3.sv
+
+Inferred memory devices in process
+        in routine sync_counter line 26 in file
+                '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_3/rtl/S_RTL_3.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       dao_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 37 in file
+                '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_3/rtl/S_RTL_3.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       dco_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_3/rtl/sync_counter.db:sync_counter'
+Loaded 1 design.
+Current design is 'sync_counter'.
+dc_shell> 
+Current design is 'sync_counter'.
+Loading db file '/pkgs/synopsys/2016/dft_compiler/libraries/syn/generic.sdb'
+dc_shell> source ../scripts/S_RTL_3.tcl
+Removing design 'sync_counter'
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_3/rtl/S_RTL_3.sv
+Presto compilation completed successfully.
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+Error: Current design is not defined. (UID-4)
+  Loading link library 'saed32rvt_ff1p16v125c'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine sync_counter line 26 in file
+                '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_3/rtl/S_RTL_3.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       dao_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 37 in file
+                '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_3/rtl/S_RTL_3.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       dco_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sync_counter'.
+Warning: The following synthetic libraries should be added to 
+        the list of link libraries: 
+        'dw_foundation.sldb'. (UISN-26)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | L-2016.03-DWBB_201603.3 |     *     |
+| Licensed DW Building Blocks        | L-2016.03-DWBB_201603.3 |           |
+============================================================================
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'sync_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+  Structuring 'sync_counter'
+  Mapping 'sync_counter'
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 9000)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+    0:00:02      21.6      0.00       0.0       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 5
+Number_of_outputs 1
+Number_of_sequentials 2
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Sat Mar  2 15:58:44 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U6                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U7                        AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U8                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U9                        MUX21X1_RVT     saed32rvt_ff1p16v125c
+                                                             3.304  so
+dao_reg                   DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+dco_reg                   DFFSSRX1_RVT    saed32rvt_ff1p16v125c
+                                                             7.116  n
+--------------------------------------------------------------------------------
+Total 6 cells                                               21.602
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_3/work/S_RTL_3_netlist.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+ 
+****************************************
+Report : area
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Sat Mar  2 15:58:44 2019
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ff1p16v125c (File: /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db)
+
+Number of ports:                            6
+Number of nets:                            11
+Number of cells:                            6
+Number of combinational cells:              4
+Number of sequential cells:                 2
+Number of macros/black boxes:               0
+Number of buf/inv:                          2
+Number of references:                       5
+
+Combinational area:                  7.878464
+Buf/Inv area:                        2.541440
+Noncombinational area:              13.723776
+Macro/Black Box area:                0.000000
+Net Interconnect area:               1.216747
+
+Total cell area:                    21.602241
+Total area:                         22.818988
+Current design is 'sync_counter'.
+dc_shell> quit
+
+Thank you...
+

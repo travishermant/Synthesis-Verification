@@ -1,0 +1,18 @@
+Initializing gui preferences from file  /u/thermant/.synopsys_dv_prefs.tcl
+dc_shell> CMD-007
+Error: unknown command 'CMD-007' (CMD-005)
+dc_shell> man CMD-007
+N.  Messages                                                 Command Reference
+                                   messages
+
+NAME
+       CMD-007 (error) Required argument '%s' was not found
+
+DESCRIPTION
+       The listed argument to the command might not be omitted.
+
+WHAT NEXT
+       Supply the required argument.
+
+G-2012.06               Copyright (c) 2012 Synopsys, Inc. All rights reserved.
+dc_shell> 
