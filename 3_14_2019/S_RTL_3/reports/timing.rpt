@@ -1,0 +1,81 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Thu Mar 14 17:06:47 2019
+****************************************
+
+Operating Conditions: ff1p16v125c   Library: saed32rvt_ff1p16v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: rst (input port clocked by clkA)
+  Endpoint: dco_reg (rising edge-triggered flip-flop clocked by clkA)
+  Path Group: clkA
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sync_counter       ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clkA (rise edge)                  0.000      0.000
+  clock network delay (ideal)             0.000      0.000
+  input external delay                    0.100      0.100 r
+  rst (in)                                0.000      0.100 r
+  U6/Y (INVX1_RVT)                        0.025      0.125 f
+  U5/Y (AND2X1_RVT)                       0.073      0.198 f
+  U4/Y (AO21X1_RVT)                       0.070      0.268 f
+  dco_reg/D (DFFX1_RVT)                   0.012      0.280 f
+  data arrival time                                  0.280
+
+  clock clkA (rise edge)                  1.000      1.000
+  clock network delay (ideal)             0.000      1.000
+  dco_reg/CLK (DFFX1_RVT)                 0.000      1.000 r
+  library setup time                     -0.019      0.981
+  data required time                                 0.981
+  -----------------------------------------------------------
+  data required time                                 0.981
+  data arrival time                                 -0.280
+  -----------------------------------------------------------
+  slack (MET)                                        0.701
+
+
+  Startpoint: rst (input port clocked by clkB)
+  Endpoint: dco_reg (rising edge-triggered flip-flop clocked by clkB)
+  Path Group: clkB
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sync_counter       ForQA                 saed32rvt_ff1p16v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clkB (rise edge)                  0.000      0.000
+  clock network delay (ideal)             0.000      0.000
+  input external delay                    0.100      0.100 r
+  rst (in)                                0.000      0.100 r
+  U6/Y (INVX1_RVT)                        0.025      0.125 f
+  U5/Y (AND2X1_RVT)                       0.073      0.198 f
+  U4/Y (AO21X1_RVT)                       0.070      0.268 f
+  dco_reg/D (DFFX1_RVT)                   0.012      0.280 f
+  data arrival time                                  0.280
+
+  clock clkB (rise edge)                  2.000      2.000
+  clock network delay (ideal)             0.000      2.000
+  dco_reg/CLK (DFFX1_RVT)                 0.000      2.000 r
+  library setup time                     -0.019      1.981
+  data required time                                 1.981
+  -----------------------------------------------------------
+  data required time                                 1.981
+  data arrival time                                 -0.280
+  -----------------------------------------------------------
+  slack (MET)                                        1.701
+
+
+1

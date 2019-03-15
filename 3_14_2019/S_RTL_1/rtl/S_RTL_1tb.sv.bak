@@ -24,7 +24,7 @@ initial
 	begin
 		data_in = 0;
 		repeat(16) begin
-			#4
+			#20
 			$display("Wrote out %b", data_in);
 			data_in = data_in + 1;		
 		end

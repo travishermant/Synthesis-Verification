@@ -1,0 +1,123 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : qor
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Thu Mar 14 17:04:20 2019
+****************************************
+
+
+  Timing Path Group 'INPUTS'
+  -----------------------------------
+  Levels of Logic:              0.000
+  Critical Path Length:         0.012
+  Critical Path Slack:          0.147
+  Critical Path Clk Period:     1.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+  Timing Path Group 'OUTPUTS'
+  -----------------------------------
+  Levels of Logic:              0.000
+  Critical Path Length:         0.068
+  Critical Path Slack:         -0.198
+  Critical Path Clk Period:     1.000
+  Total Negative Slack:        -0.794
+  No. of Violating Paths:       4.000
+  Worst Hold Violation:         0.000
+  Total Hold Violation:         0.000
+  No. of Hold Violations:       0.000
+  -----------------------------------
+
+  Timing Path Group 'fast_clk'
+  -----------------------------------
+  Levels of Logic:              5.000
+  Critical Path Length:         0.495
+  Critical Path Slack:          0.021
+  Critical Path Clk Period:     1.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:        -0.103
+  Total Hold Violation:        -0.427
+  No. of Hold Violations:       6.000
+  -----------------------------------
+
+  Timing Path Group 'slow_clk'
+  -----------------------------------
+  Levels of Logic:              1.000
+  Critical Path Length:         0.543
+  Critical Path Slack:          0.574
+  Critical Path Clk Period:     4.000
+  Total Negative Slack:         0.000
+  No. of Violating Paths:       0.000
+  Worst Hold Violation:        -0.345
+  Total Hold Violation:        -1.572
+  No. of Hold Violations:       8.000
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                 37
+  Buf/Inv Cell Count:               5
+  Buf Cell Count:                   1
+  Inv Cell Count:                   4
+  CT Buf/Inv Cell Count:            1
+  Combinational Cell Count:        19
+  Sequential Cell Count:           18
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:          38.884
+  Noncombinational Area:      118.939
+  Buf/Inv Area:                 7.116
+  Total Buffer Area:            2.033
+  Total Inverter Area:          5.083
+  Macro/Black Box Area:         0.000
+  Net Area:                     7.936
+  -----------------------------------
+  Cell Area:                  157.823
+  Design Area:                165.760
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:            45
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: eve.ece.pdx.edu
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                   0.004
+  Logic Optimization:                 0.371
+  Mapping Optimization:               0.110
+  -----------------------------------------
+  Overall Compile Time:               1.811
+  Overall Compile Wall Clock Time:    3.298
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.198  TNS: 0.794  Number of Violating Paths: 4
+
+
+  Design (Hold)  WNS: 0.345  TNS: 1.999  Number of Violating Paths: 14
+
+  --------------------------------------------------------------------
+
+
+1

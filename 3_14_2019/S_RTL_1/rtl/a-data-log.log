@@ -1,0 +1,392 @@
+		dataIn	dataOut	reset	control	clk
+data = 1111000110011111010100110000101000111100010101101110000100000010011001001110101000001011001010001101001111010000011101110010
+		0	xxxx	0	0	1
+		0	xxxx	0	0	0
+		0	xxxx	0	0	1
+		0	xxxx	0	0	0
+		0	xxxx	0	0	1
+		0	xxxx	0	0	0
+		0	xxxx	0	0	1
+		0	xxxx	0	0	0
+		0	xxxx	0	0	1
+		0	xxxx	0	0	0
+		0	xxxx	0	0	1
+check count:           1
+REPEAT           0
+		0	xxxx	0	0	0
+		0	xxxx	0	0	1
+check count:           2
+REPEAT           1
+		1	xxxx	0	0	0
+		1	xxxx	0	0	1
+check count:           3
+REPEAT           2
+		0	xxxx	0	0	0
+		0	xxxx	0	0	1
+check count:           4
+REPEAT           3
+		0	xxxx	0	0	0
+		0	xxxx	0	0	1
+check count:           5
+REPEAT           4
+		1	xxxx	0	0	0
+		1	xxxx	0	0	1
+check count:           6
+REPEAT           5
+		1	xxxx	0	0	0
+		1	xxx0	0	0	1
+check count:           7
+REPEAT           6
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:           8
+REPEAT           7
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:           9
+REPEAT           8
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          10
+REPEAT           9
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          11
+REPEAT          10
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          12
+REPEAT          11
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          13
+REPEAT          12
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          14
+REPEAT          13
+		0	xxx0	0	0	0
+		0	1x1x	0	0	1
+check count:          15
+REPEAT          14
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          16
+REPEAT          15
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          17
+REPEAT          16
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          18
+REPEAT          17
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          19
+REPEAT          18
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          20
+REPEAT          19
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          21
+REPEAT          20
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          22
+REPEAT          21
+		1	1x1x	0	0	0
+		1	xxx0	0	0	1
+check count:          23
+REPEAT          22
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          24
+REPEAT          23
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          25
+REPEAT          24
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          26
+REPEAT          25
+		0	xxx0	0	0	0
+		0	1x1x	0	0	1
+check count:          27
+REPEAT          26
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          28
+REPEAT          27
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          29
+REPEAT          28
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          30
+REPEAT          29
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          31
+REPEAT          30
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          32
+REPEAT          31
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          33
+REPEAT          32
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          34
+REPEAT          33
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          35
+REPEAT          34
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          36
+REPEAT          35
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          37
+REPEAT          36
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          38
+REPEAT          37
+		1	1x1x	0	0	0
+		1	xxx0	0	0	1
+check count:          39
+REPEAT          38
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          40
+REPEAT          39
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          41
+REPEAT          40
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          42
+REPEAT          41
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          43
+REPEAT          42
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          44
+REPEAT          43
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          45
+REPEAT          44
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          46
+REPEAT          45
+		1	xxx0	0	0	0
+		1	1x1x	0	0	1
+check count:          47
+REPEAT          46
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          48
+REPEAT          47
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          49
+REPEAT          48
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          50
+REPEAT          49
+		1	1x1x	0	0	0
+		1	xxx0	0	0	1
+check count:          51
+REPEAT          50
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          52
+REPEAT          51
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          53
+REPEAT          52
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          54
+REPEAT          53
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          55
+REPEAT          54
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          56
+REPEAT          55
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          57
+REPEAT          56
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          58
+REPEAT          57
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          59
+REPEAT          58
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          60
+REPEAT          59
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          61
+REPEAT          60
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          62
+REPEAT          61
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          63
+REPEAT          62
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          64
+REPEAT          63
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          65
+REPEAT          64
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          66
+REPEAT          65
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          67
+REPEAT          66
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          68
+REPEAT          67
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          69
+REPEAT          68
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          70
+REPEAT          69
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          71
+REPEAT          70
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          72
+REPEAT          71
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          73
+REPEAT          72
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          74
+REPEAT          73
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          75
+REPEAT          74
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          76
+REPEAT          75
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          77
+REPEAT          76
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          78
+REPEAT          77
+		1	xxx0	0	0	0
+		1	1x1x	0	0	1
+check count:          79
+REPEAT          78
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          80
+REPEAT          79
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          81
+REPEAT          80
+		1	1x1x	0	0	0
+		1	1x1x	0	0	1
+check count:          82
+REPEAT          81
+		0	1x1x	0	0	0
+		0	xxx0	0	0	1
+check count:          83
+REPEAT          82
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          84
+REPEAT          83
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          85
+REPEAT          84
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          86
+REPEAT          85
+		0	xxx0	0	0	0
+		0	xxx0	0	0	1
+check count:          87
+REPEAT          86
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          88
+REPEAT          87
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          89
+REPEAT          88
+		1	xxx0	0	0	0
+		1	xxx0	0	0	1
+check count:          90
+REPEAT          89
+		1	xxx0	0	0	0
+		1	1x1x	0	0	1
+check count:          91
+REPEAT          90
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          92
+REPEAT          91
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          93
+REPEAT          92
+		0	1x1x	0	0	0
+		0	1x1x	0	0	1
+check count:          94
+REPEAT          93
+		1	1x1x	0	0	0
+		1	xxx0	0	0	1
+check count:          95
+REPEAT          94
+		0	xxx0	0	0	0

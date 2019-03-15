@@ -1,0 +1,13 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Thu Mar 14 17:08:43 2019
+****************************************
+
+This design has no violated constraints.
+
+1

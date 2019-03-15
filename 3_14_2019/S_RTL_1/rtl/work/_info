@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/rtl
+T_opt
+!s110 1552531327
+VLWbX9@SO2S>oAaZZ@5gaY1
+04 12 4 work sync_counter fast 0
+=1-b82a72deaf84-5c89bf7f-92fc9-45d4
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z1 OL;O;10.4c;61
+R0
+T_opt1
+!s110 1552535193
+VPW>:aO_<n2g;RbQilMMJ`2
+04 15 4 work sync_counter_tb fast 0
+=1-b82a72deaf84-5c89ce99-38e53-188
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt1
+R1
+R0
+vsync_counter
+Z2 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 C`]D6QkM2z9TXTc2WF>^W3
+IhGV1fh>IU?MYNo?;1g^1A2
+!s105 S_RTL_1_sv_unit
+S1
+R0
+w1552440973
+8S_RTL_1.sv
+FS_RTL_1.sv
+L0 8
+Z4 OL;L;10.4c;61
+Z5 !s108 1552607529.000000
+Z6 !s107 S_RTL_1tb.sv|S_RTL_1.sv|
+Z7 !s90 S_RTL_1.sv|S_RTL_1tb.sv|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vsync_counter_tb
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 jL908cNSY<D<FaHSIGe:n0
+Ib9L7Gzm5iz]jnZbmWNl]m1
+Z9 !s105 S_RTL_1tb_sv_unit
+S1
+R0
+w1552607515
+Z10 8S_RTL_1tb.sv
+Z11 FS_RTL_1tb.sv
+L0 1
+R4
+R5
+R6
+R7
+!i113 0
+R8
+vtoptb
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 4KCD>nQd2MK>4c2nA_SC^2
+IFfB>d3IS9iUbMOIlhhHL31
+R9
+S1
+R0
+w1552533378
+R10
+R11
+L0 3
+R4
+!s108 1552533737.000000
+!s107 S_RTL_1tb.sv|
+!s90 -reportprogress|300|S_RTL_1tb.sv|
+!i113 0
+R8

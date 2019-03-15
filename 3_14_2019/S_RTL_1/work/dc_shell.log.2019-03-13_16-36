@@ -1,0 +1,3564 @@
+Initializing gui preferences from file  /u/thermant/.synopsys_dv_prefs.tcl
+dc_shell> source ../scripts/top.tcl
+Warning: No designs to list. (UID-275)
+Running PRESTO HDLC
+Compiling source file ../rtl/sync_reg.sv
+Presto compilation completed successfully.
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db'
+Loading db file '/pkgs/synopsys/2016/dft_compiler/libraries/syn/dw_foundation.sldb'
+Running PRESTO HDLC
+Compiling source file ../rtl/shift_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/div_cnt.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/decode_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/multiply_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/top.sv
+Presto compilation completed successfully.
+Loading db file '/pkgs/synopsys/2016/dft_compiler/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2016/dft_compiler/libraries/syn/standard.sldb'
+  Loading link library 'saed32hvt_ss0p75v125c'
+  Loading link library 'saed32lvt_ss0p75v125c'
+  Loading link library 'saed32rvt_ss0p75v125c'
+  Loading link library 'saed32io_wb_ss0p95v125c_2p25v'
+  Loading link library 'saed32sram_ss0p95v125c'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'top'.
+Information: Building the design 'shift_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine shift_reg_DATA_WIDTH4 line 31 in file
+                '../rtl/shift_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    shiftReg_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'div_cnt'. (HDL-193)
+
+Inferred memory devices in process
+        in routine div_cnt line 26 in file
+                '../rtl/div_cnt.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        c_reg        | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'sync_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine sync_reg_DATA_WIDTH4 line 26 in file
+                '../rtl/sync_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'decode_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine decode_reg_DATA_WIDTH4 line 26 in file
+                '../rtl/decode_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'multiply_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine multiply_reg_DATA_WIDTH4 line 25 in file
+                '../rtl/multiply_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is 'top'.
+
+  Linking design 'top'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (6 designs)               /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/top.db, etc
+  saed32hvt_ss0p75v125c (library) /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db
+  saed32lvt_ss0p75v125c (library) /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db
+  saed32rvt_ss0p75v125c (library) /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db
+  saed32io_wb_ss0p95v125c_2p25v (library) /pkgs/synopsys/2016/libs/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db
+  saed32sram_ss0p95v125c (library) /pkgs/synopsys/2016/libs/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db
+  dw_foundation.sldb (library) /pkgs/synopsys/2016/dft_compiler/libraries/syn/dw_foundation.sldb
+
+Current design is 'top'.
+Using operating conditions 'ss0p75v125c' found in library 'saed32hvt_ss0p75v125c'.
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | L-2016.03-DWBB_201603.3 |     *     |
+| Licensed DW Building Blocks        | L-2016.03-DWBB_201603.3 |     *     |
+============================================================================
+
+
+Information: There are 2 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'multiply_reg_DATA_WIDTH4'
+  Processing 'decode_reg_DATA_WIDTH4'
+  Processing 'sync_reg_DATA_WIDTH4'
+  Processing 'div_cnt'
+  Processing 'shift_reg_DATA_WIDTH4'
+  Processing 'top'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03     170.8      0.00       0.0       2.3                          
+    0:00:03     170.8      0.00       0.0       2.3                          
+    0:00:03     170.8      0.00       0.0       2.3                          
+    0:00:03     170.8      0.00       0.0       2.3                          
+    0:00:03     170.8      0.00       0.0       2.3                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 300)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+    0:00:03     166.7      0.00       0.0       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+report_timing command
+check_timing command
+report_qor command
+report_constraint command (PWR-6, PWR-414, PWR-415 Warnings are ok)
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/top.vg'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/top.sdf'. (WT-3)
+1
+dc_shell> source ../scripts/top.tcl
+decode_reg_DATA_WIDTH4          shift_reg_DATA_WIDTH4
+div_cnt                         sync_reg_DATA_WIDTH4
+multiply_reg_DATA_WIDTH4        top (*)
+Removing design 'top'
+Removing design 'shift_reg_DATA_WIDTH4'
+Removing design 'div_cnt'
+Removing design 'sync_reg_DATA_WIDTH4'
+Removing design 'decode_reg_DATA_WIDTH4'
+Removing design 'multiply_reg_DATA_WIDTH4'
+Running PRESTO HDLC
+Compiling source file ../rtl/sync_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/shift_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/div_cnt.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/decode_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/multiply_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/top.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'top'.
+Information: Building the design 'shift_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine shift_reg_DATA_WIDTH4 line 31 in file
+                '../rtl/shift_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    shiftReg_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'div_cnt'. (HDL-193)
+
+Inferred memory devices in process
+        in routine div_cnt line 26 in file
+                '../rtl/div_cnt.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        c_reg        | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'sync_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine sync_reg_DATA_WIDTH4 line 26 in file
+                '../rtl/sync_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'decode_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine decode_reg_DATA_WIDTH4 line 26 in file
+                '../rtl/decode_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'multiply_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine multiply_reg_DATA_WIDTH4 line 25 in file
+                '../rtl/multiply_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is 'top'.
+
+  Linking design 'top'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (6 designs)               /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/top.db, etc
+  saed32hvt_ss0p75v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db
+  saed32lvt_ss0p75v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db
+  saed32rvt_ss0p75v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db
+  saed32io_wb_ss0p95v125c_2p25v (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db
+  saed32sram_ss0p95v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db
+  dw_foundation.sldb (library)
+                              /pkgs/synopsys/2016/dft_compiler/libraries/syn/dw_foundation.sldb
+
+Current design is 'top'.
+Using operating conditions 'ss0p75v125c' found in library 'saed32hvt_ss0p75v125c'.
+
+Information: There are 2 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'multiply_reg_DATA_WIDTH4'
+  Processing 'decode_reg_DATA_WIDTH4'
+  Processing 'sync_reg_DATA_WIDTH4'
+  Processing 'div_cnt'
+  Processing 'shift_reg_DATA_WIDTH4'
+  Processing 'top'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 300)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+report_timing command
+check_timing command
+report_qor command
+report_constraint command (PWR-6, PWR-414, PWR-415 Warnings are ok)
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/top.vg'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/top.sdf'. (WT-3)
+1
+dc_shell> source ../scripts/top.tcl
+decode_reg_DATA_WIDTH4          shift_reg_DATA_WIDTH4
+div_cnt                         sync_reg_DATA_WIDTH4
+multiply_reg_DATA_WIDTH4        top (*)
+Removing design 'top'
+Removing design 'shift_reg_DATA_WIDTH4'
+Removing design 'div_cnt'
+Removing design 'sync_reg_DATA_WIDTH4'
+Removing design 'decode_reg_DATA_WIDTH4'
+Removing design 'multiply_reg_DATA_WIDTH4'
+Running PRESTO HDLC
+Compiling source file ../rtl/sync_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/shift_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/div_cnt.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/decode_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/multiply_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/top.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'top'.
+Information: Building the design 'shift_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine shift_reg_DATA_WIDTH4 line 31 in file
+                '../rtl/shift_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    shiftReg_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'div_cnt'. (HDL-193)
+
+Inferred memory devices in process
+        in routine div_cnt line 26 in file
+                '../rtl/div_cnt.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        c_reg        | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'sync_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine sync_reg_DATA_WIDTH4 line 26 in file
+                '../rtl/sync_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'decode_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine decode_reg_DATA_WIDTH4 line 26 in file
+                '../rtl/decode_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'multiply_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine multiply_reg_DATA_WIDTH4 line 25 in file
+                '../rtl/multiply_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is 'top'.
+
+  Linking design 'top'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (6 designs)               /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/top.db, etc
+  saed32hvt_ss0p75v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db
+  saed32lvt_ss0p75v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db
+  saed32rvt_ss0p75v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db
+  saed32io_wb_ss0p95v125c_2p25v (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db
+  saed32sram_ss0p95v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db
+  dw_foundation.sldb (library)
+                              /pkgs/synopsys/2016/dft_compiler/libraries/syn/dw_foundation.sldb
+
+Current design is 'top'.
+Using operating conditions 'ss0p75v125c' found in library 'saed32hvt_ss0p75v125c'.
+
+Information: There are 2 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'multiply_reg_DATA_WIDTH4'
+  Processing 'decode_reg_DATA_WIDTH4'
+  Processing 'sync_reg_DATA_WIDTH4'
+  Processing 'div_cnt'
+  Processing 'shift_reg_DATA_WIDTH4'
+  Processing 'top'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 300)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+report_timing command
+check_timing command
+report_qor command
+report_constraint command (PWR-6, PWR-414, PWR-415 Warnings are ok)
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/top.vg'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/top.sdf'. (WT-3)
+1
+dc_shell> man set_case_analysis
+2.  Synopsys Commands                                        Command Reference
+                               set_case_analysis
+
+NAME
+       set_case_analysis
+              Specifies that a port or pin is at a constant 1 or 0 logic value
+              or has only a rising or only a falling transition applied to it.
+
+SYNTAX
+       status set_case_analysis
+               value
+               port_or_pin_list
+
+   Data Types
+       value                integer or string
+       port_or_pin_list     list
+
+ARGUMENTS
+       value  Specifies the constant logic value or the transition assigned to
+              the specified port or pin.  The valid constant values are 0,  1,
+              zero, and one.  The valid transition values are rising, falling,
+              rise, and fall.
+
+       port_or_pin_list
+              Lists the ports or pins to which the value applies.
+
+DESCRIPTION
+       This command specifies that a port or pin is at a constant 1 or 0 logic
+       value  or has only a rising or only a falling transition applied to it.
+
+       Case analysis is a way to specify a given mode of  the  design  without
+       altering  the  netlist structure.  For the current timing analysis ses-
+       sion, you can specify that certain signals are at a constant  value  (1
+       or  0) or that only one type of transition (rising or falling) is to be
+       applied.  When you specify case analysis  as  a  constant  value,  that
+       value  is  propagated forward through the network as long as a control-
+       ling value for the traversed logic is at the constant value.
+
+       For example, if you specify that one of the inputs of a NAND gate is  a
+       constant  logic  0,  that  condition  is propagated to the NAND output,
+       which is then considered a constant logic 1 value.  This constant value
+       is in turn propagated to the inputs of all cells driven by this signal,
+       and so on.
+
+       In the event of case analysis set as a transition (such as rising), the
+       specified  pin or port is only considered for timing analysis with that
+       type of transition.  The other transition (such as falling) is not con-
+       sidered.
+
+       You  can  use case analysis (in addition to the mode commands) to fully
+       specify the operating mode of a design.  For example, you can  use  the
+       set_mode  command  to  specify a design that instantiates models with a
+       TESTMODE signal that is disabled during timing analysis.  In  addition,
+       if a TESTMODE signal exists in the design, you can set it to a constant
+       logic value so that all test logic that the TESTMODE signal controls is
+       disabled.
+
+   Multicorner-Multimode Support
+       This command applies to the current scenario only.
+
+EXAMPLES
+       The  following example specifies that a port named IN1 is at a constant
+       0 logic value.
+
+         prompt> set_case_analysis 0 IN1
+
+       The following example specifies that the U1/U2/A pin is considered only
+       for  a  rising  transition.   The falling transition on this pin is not
+       considered.
+
+         prompt> set_case_analysis rising U1/U2/A
+
+SEE ALSO
+       remove_case_analysis(2)
+       report_case_analysis(2)
+       set_mode(2)
+       reset_mode(2)
+
+                          Version L-2016.03-SP3
+            Copyright (c) 2016 Synopsys, Inc. All rights reserved.
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> man set_multicycle
+2.  Synopsys Commands                                        Command Reference
+                              set_multicycle_path
+
+NAME
+       set_multicycle_path
+              Modifies  the  single-cycle timing relationship of a constrained
+              path.
+
+SYNTAX
+       status set_multicycle_path
+               path_multiplier
+               [-rise | -fall]
+               [-setup | -hold]
+               [-start | -end]
+               [-from from_list
+                | -rise_from rise_from_list
+                | -fall_from fall_from_list]
+               [-through through_list]
+               [-rise_through rise_through_list]
+               [-fall_through fall_through_list]
+               [-to to_list
+                | -rise_to rise_to_list
+                | -fall_to fall_to_list]
+               [-reset_path]
+               [-comment comment_string]
+
+   Data Types
+       path_multiplier       integer
+       from_list             list
+       rise_from_list        list
+       fall_from_list        list
+       through_list          list
+       rise_through_list     list
+       fall_through_list     list
+       to_list               list
+       rise_to_list          list
+       fall_to_list          list
+       comment_string        string
+
+ARGUMENTS
+       path_multiplier
+              Specifies the number of cycles that the data path must have  for
+              setup  or  hold  relative  to  the  startpoint or endpoint clock
+              before data is required at the endpoint.  When used with -setup,
+              this  value  is  applied  to setup path calculations.  When used
+              with -hold, this value is applied to hold path calculations.  If
+              neither  -hold nor -setup are specified, path_multiplier is used
+              for setup, and 0 is used for hold.  Changing the multiplier  for
+              setup also affects the hold check.
+
+       -rise  Specifies  that  rising  path delays are affected by path_multi-
+              plier.  The default is that both rising and falling  delays  are
+              affected.  Rise refers to a rising value at the path endpoint.
+
+       -fall  Specifies  that  falling path delays are affected by path_multi-
+              plier.  The default is that both rising and falling  delays  are
+              affected.   Fall refers to a falling value at the path endpoint.
+
+       -setup Specifies that path_multiplier is used for setup calculations.
+
+       -hold  Specifies that path_multiplier is used for hold calculations.
+
+       -start | -end
+              Specifies whether the multicycle information is relative to  the
+              period  of  the start clock or the end clock.  These options are
+              only needed for multifrequency designs; otherwise start and  end
+              are  equivalent.  The start clock is the clock source related to
+              the register or primary input at the path startpoint.   The  end
+              clock  is  the  clock  source related to the register or primary
+              output at the path endpoint.  The default is to move  the  setup
+              check  relative to the end clock, and the hold check relative to
+              the start clock.  A setup multiplier of 2 with  -end  moves  the
+              relation forward one cycle of the end clock.  A setup multiplier
+              of 2 with -start moves the relation backward one  cycle  of  the
+              start clock.  A hold multiplier of 1 with -start moves the rela-
+              tion forward one cycle of the start clock.  A hold multiplier of
+              1  with  -end  moves  the relation backward one cycle of the end
+              clock.
+
+       -from from_list
+              Lists the names of clocks, ports, pins, or cells to use to  find
+              path  startpoints.   If  a clock is specified, all registers and
+              primary inputs related to that clock are  used  as  path  start-
+              points.   If  a cell is specified a cell, one path startpoint on
+              that cell is affected.
+
+       -rise_from rise_from_list
+              Same as the -from option, except that the path  must  rise  from
+              the  objects  specified.   If  a clock object is specified, this
+              option selects startpoints clocked by the named clock, but  only
+              the  paths  launched  by  rising  edge of the clock at the clock
+              source, taking into account any  logical  inversions  along  the
+              clock  path.   You  can  use  only one of -from, -rise_from, and
+              -fall_from.
+
+       -fall_from fall_from_list
+              Same as the -from option, except that the path  must  fall  from
+              the  objects  specified.   If  a clock object is specified, this
+              option selects startpoints clocked by the named clock, but  only
+              the  paths  launched  by  falling edge of the clock at the clock
+              source, taking into account any  logical  inversions  along  the
+              clock  path.   You  can  use  only one of -from, -rise_from, and
+              -fall_from.
+
+       -through through_list
+              Lists the path throughpoints (port, pin, or leaf cell names)  of
+              the  current  design.  The multicycle values apply only to paths
+              that pass through one of the points  in  the  through_list.   If
+              more  than  one object is included, the objects must be enclosed
+              either in double quotation marks ("") or in braces ({}).  If you
+              specify  the -through option multiple times, the multicycle val-
+              ues  apply  to  paths  that  pass  through  a  member  of   each
+              through_list  in  the order the lists were given.  The path must
+              first pass through a member  of  the  first  through_list,  then
+              through a member of the second list, and so on for every through
+              list specified.  If the -through option is used  in  combination
+              with  the -from or -to options, the multicycle values apply only
+              if the -from or -to conditions are satisfied  and  the  -through
+              conditions are satisfied.
+
+       -rise_through rise_through_list
+              Same  as  the  -through option, but applies only to paths with a
+              rising transition at the specified  objects.   You  can  specify
+              -rise_through  more  than once in a single command invocation as
+              with the -through option.
+
+       -fall_through fall_through_list
+              Same as the -through option, but applies only to  paths  with  a
+              falling  transition  at  the specified objects.  You can specify
+              -fall_through more than once in a single command  invocation  as
+              with the -through option.
+
+       -to to_list
+              Lists  the  names of clocks, ports, pins or cells to use to find
+              path endpoints.  If a clock is specified, all registers and pri-
+              mary  outputs  related to that clock are used as path endpoints.
+              If a cell is specified,  one  path  endpoint  on  that  cell  is
+              affected.
+
+       -rise_to rise_to_list
+              Same  as the -to option, but applies only to paths rising at the
+              endpoint.  If a clock object is specified, this  option  selects
+              endpoints  clocked  by  the named clock, but only the paths cap-
+              tured by rising edge of the clock at clock source,  taking  into
+              account  any  logical  inversions along the clock path.  You can
+              use only one of -to, -rise_to, and -fall_to.
+
+       -fall_to fall_to_list
+              Same as the -to option, but applies only to paths falling at the
+              endpoint.   If  a clock object is specified, this option selects
+              endpoints clocked  by  the  named  clock,  but  only  the  paths
+              launched  by falling edge of the clock at the clock source, tak-
+              ing into account any logical inversions along  the  clock  path.
+              You can use only one of -to, -rise_to, and -fall_to.
+
+       -reset_path
+              Removes  existing  point-to-point  exception  information on the
+              specified paths.  When used only with -to, all paths leading  to
+              the  specified  endpoints are reset.  When used only with -from,
+              all paths leading from  the  specified  startpoints  are  reset.
+              When  used  with  -from and -to, only paths between those points
+              are reset.  Only information of the same  rise/fall,  setup/hold
+              type  is reset.  This is equivalent to using the reset_path com-
+              mand with similar arguments before issuing  set_multicycle_path.
+
+       -comment comment_string
+              Allows  the  command to accept a comment string. The tool honors
+              the annotation and preserves it with the SDC object so that  the
+              exact  string  is written out when the constraint is written out
+              when you use the write_sdc or write_script command. The  comment
+              remains  intact through the synthesis, place-and-route, and tim-
+              ing-analysis flows.
+
+DESCRIPTION
+       The set_multicycle_path command specifies that designated timing  paths
+       in the current design have nondefault setup or hold relations.
+
+       The  synthesis timing engine applies certain rules to determine single-
+       cycle timing relationships for paths  between  clocked  elements.   The
+       rules  are based on active edges.  For flip-flops, a single active edge
+       both launches and captures data.  For latches, the open edge is used to
+       launch data, and the close edge is used to latch data.
+
+       The  setup  check  ensures that the correct data signal is available on
+       destination registers in time to be properly latched.
+
+       The rule for setup is that for multifrequency  designs,  there  can  be
+       multiple  setup  relations between two clocks.  For every latch edge of
+       the destination clock, find the nearest launch edge which precedes each
+       capture   edge.    The   smallest  difference  of  (setup_latch_edge  -
+       setup_launch_edge) determines the maximum delay  requirement  for  this
+       path.
+
+       This  is  known  as  single-cycle setup.  You can override this default
+       relationship using set_multicycle_path or set_max_delay.  You can apply
+       these  commands to clocks, pins, ports, or cells.  For example, setting
+       the setup path multiplier to 2  with  the  set_multicycle_path  command
+       delays  the  latch edge one clock pulse.  Changing the setup multiplier
+       also affects the default hold check.
+
+       The hold check verifies the following items:
+
+        o Data from the source clock edge that follows the setup  launch  edge
+         must not be latched by the setup latch edge.
+
+        o  Data from the setup launch edge must not be latched by the destina-
+         tion clock edge that precedes the setup latch edge.
+
+       The hold check is determined relative to each valid setup relationship,
+       after  applying  multicycle  path  multipliers.   The  most restrictive
+       (largest) difference of (hold_latch_edge - hold_launch_edge) is used as
+       a minimum delay requirement for the path.
+
+       The  hold  relation  is  conservative.  In some cases you might need to
+       override the default hold relation.  For multifrequency designs, it  is
+       more  straightforward  to use the set_min_delay command to override the
+       default instead of using set_multicycle_path -hold.
+
+       Setting path_multiplier for setup moves the setup check in time  by  an
+       integer  number  of  active edges.  For example, specifying path_multi-
+       plier of 2 for setup implies a 2 cycle data path.
+
+       Most often, the setup check is moved relative to the end  clock.   This
+       move  changes  the  data latch time at the path endpoint.  In multifre-
+       quency designs, use the following command to move the data launch  time
+       backward:
+
+          set_multicycle_path -setup -start
+
+       To move the hold relation relative to the end clock use the command
+
+         set_multicycle_path -hold -end
+
+       If  you  do  not  specify -setup or -hold, the setup relation is set to
+       path_multiplier and the hold relation is set to 0.
+
+       If you specify -setup, the setup multiplier is set to  path_multiplier.
+       The hold multiplier is unaffected.
+
+       If  you  specify  -hold, the hold multiplier is set to path_multiplier.
+       The setup multiplier is unaffected.
+
+       There are separate setup and hold multipliers for rise  and  fall.   In
+       most  cases, these are set to the same value.  You can use the -rise or
+       -fall options to apply different values.
+
+       The set_multicycle_path command is a  point-to-point  timing  exception
+       command.  If a path satisfies multiple timing exceptions, the following
+       rules are used in order to  determine  which  exceptions  take  effect.
+       Rules  referring  to  -from apply equally to -rise_from and -fall_from,
+       and similarly for the rise and fall options of -through and -to.
+
+        o Two  group_path  commands  can  conflict  with  each  other,  but  a
+         group_path  exception  alone  does  not conflict with another type of
+         exception.  So the remaining rules apply for  two  group_path  excep-
+         tions, or two non-group_path exceptions.
+
+        o If both exceptions are set_false_paths, there is no conflict.
+
+        o  If one exception is a set_max_delay and the other is set_min_delay,
+         there is no conflict.
+
+        o If one exception is a set_multicycle_path -hold  and  the  other  is
+         set_multicycle_path -setup, there is no conflict.
+
+        o  If  one  exception  is  a  set_false_path and the other is not, the
+         set_false_path takes precedence.
+
+        o If one exception is a  set_max_delay  and  the  other  is  not,  the
+         set_max_delay takes precedence.
+
+        o  If  one  exception  is  a  set_min_delay  and the other is not, the
+         set_min_delay takes precedence.
+
+        o If one exception has a -from pin or -from cell and  the  other  does
+         not, the former takes precedence.
+
+        o  If  one exception has a -to pin or -to cell and the other does not,
+         the former takes precedence.
+
+        o If one exception has any -through points and the other does not, the
+         former takes precedence.
+
+        o  If one exception has a -from clock and the other does not, the for-
+         mer takes precedence.
+
+        o If one exception has a -to clock and the other does not, the  former
+         takes precedence.
+
+        o The exception with the more restrictive constraint then takes prece-
+         dence.  For set_max_delay and set_multicycle_path -setup, this is the
+         constraint  with the lower value.  For set_min_delay and set_multicy-
+         cle_path -hold, it is the constraint with the higher value.
+
+       To undo a set_multicycle_path command, use reset_path or  reset_design.
+
+       Use set_false_path to disable setup or hold calculations for paths.
+
+       Use report_timing_requirements to list the point-to-point exceptions on
+       a design.
+
+   Multicorner-Multimode Support
+       This command applies to the current scenario only.
+
+EXAMPLES
+       The following example sets all paths between  latch1b  and  latch2d  to
+       two-cycle  paths  for  setup.  Hold is measured at the previous edge of
+       the clock at latch2d.
+
+         prompt> set_multicycle_path 2 -from {latch1b} -to {latch2d}
+
+       The following example moves the hold check to the preceding edge of the
+       start clock:
+
+         prompt> set_multicycle_path -1 -from {latch1b} -to {latch2d}
+
+       The  following example is a two-phase level-sensitive design, where the
+       designer expects paths from phi1 to phi1 to be zero cycles:
+
+         prompt> set_multicycle_path 0 -from phi1 -to phi1
+
+       The following example uses the -start option to specify  a  three-cycle
+       path  relative  to  the  clock  at  the path startpoint.  Because clock
+       sources are specified, the constraint affects all  sequential  elements
+       clocked  by that clock and ports with input or output delay relative to
+       that clock.
+
+         prompt> set_multicycle_path 3 -start -from {clk50mhz} -to {clk10mhz}
+
+       The following example affects all paths that pass first through the  U1
+       or U2 cell and later pass through the U3 cell.  The path resulting in a
+       rise transition at an  endpoint  is  constrained  to  two  cycles,  but
+       falling paths are constrained to one cycle.
+
+         prompt> set_multicycle_path 2 -rise -through {U1 U2} -through {U3}
+         prompt> set_multicycle_path 1 -fall -through {U1 U2} -through {U3}
+
+       The  following  multifrequency  example  shows a path from a flip-flop,
+       ff1, clocked by a 20-ns clock to a flip-flop, ff2, clocked by  a  10-ns
+       clock, with a multicycle path of two.
+
+         prompt> create_clock -period 20 -waveform {0 10} clk20
+         prompt> create_clock -period 10 -waveform {0 5} clk10
+         prompt> set_multicycle_path 2 -setup -from ff1/CP -to ff2/D
+
+       The  single-cycle  setup  relationship is from the CLK1 edge at 0 ns to
+       the CLK2 edge at 10 ns. With the multicycle path, the  setup  relation-
+       ship is now 20 ns (from the CLK1 edge at 0ns to the CLK2 edge at 20ns).
+       The hold relationships are determined according to that setup relation-
+       ship.
+
+       o  Data  from  the source clock edge that follows the setup launch edge
+         must not be latched by the setup latch edge.   This  implies  a  hold
+         relationship of 0 ns (from the CLK1 edge at 20 ns to the CLK2 edge at
+         20 ns).
+
+       o Data from the setup launch edge must not be latched by  the  destina-
+         tion  clock  edge that precedes the setup latch edge.  This implies a
+         hold relationship of 10 ns (from the CLK1 edge at 0 ns  to  the  CLK2
+         edge at 10 ns).
+
+       The  most restrictive (largest) hold relationship is used, so the mini-
+       mum delay requirement for this path is 10 ns.  This is  a  conservative
+       check that might not apply to certain designs.  Often you know that the
+       destination register is disabled for the clock edge at 10 ns.  You  can
+       modify this default hold relationship with the following command to get
+       a 0-ns requirement:
+
+         prompt> set_min_delay 0 -from ff1/CP -to ff2/D
+
+       However, an easier approach is to use the following command:
+
+         prompt> set_multicycle_path 1 -hold -end -from ff1/CP -to ff2/D
+
+SEE ALSO
+       report_timing_requirements(2)
+       reset_design(2)
+       reset_path(2)
+       set_false_path(2)
+       set_max_delay(2)
+       set_min_delay(2)
+
+                          Version L-2016.03-SP3
+            Copyright (c) 2016 Synopsys, Inc. All rights reserved.
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> source ../scripts/top.tcl
+decode_reg_DATA_WIDTH4          shift_reg_DATA_WIDTH4
+div_cnt                         sync_reg_DATA_WIDTH4
+multiply_reg_DATA_WIDTH4        top (*)
+Removing design 'top'
+Removing design 'shift_reg_DATA_WIDTH4'
+Removing design 'div_cnt'
+Removing design 'sync_reg_DATA_WIDTH4'
+Removing design 'decode_reg_DATA_WIDTH4'
+Removing design 'multiply_reg_DATA_WIDTH4'
+Running PRESTO HDLC
+Compiling source file ../rtl/sync_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/shift_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/div_cnt.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/decode_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/multiply_reg.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ../rtl/top.sv
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'top'.
+Information: Building the design 'shift_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine shift_reg_DATA_WIDTH4 line 31 in file
+                '../rtl/shift_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    shiftReg_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'div_cnt'. (HDL-193)
+
+Inferred memory devices in process
+        in routine div_cnt line 26 in file
+                '../rtl/div_cnt.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        c_reg        | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'sync_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine sync_reg_DATA_WIDTH4 line 26 in file
+                '../rtl/sync_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'decode_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine decode_reg_DATA_WIDTH4 line 26 in file
+                '../rtl/decode_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'multiply_reg' instantiated from design 'top' with
+        the parameters "4". (HDL-193)
+
+Inferred memory devices in process
+        in routine multiply_reg_DATA_WIDTH4 line 25 in file
+                '../rtl/multiply_reg.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     dataOut_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is 'top'.
+
+  Linking design 'top'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (6 designs)               /u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/top.db, etc
+  saed32hvt_ss0p75v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db
+  saed32lvt_ss0p75v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db
+  saed32rvt_ss0p75v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db
+  saed32io_wb_ss0p95v125c_2p25v (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db
+  saed32sram_ss0p95v125c (library)
+                              /pkgs/synopsys/2016/libs/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db
+  dw_foundation.sldb (library)
+                              /pkgs/synopsys/2016/dft_compiler/libraries/syn/dw_foundation.sldb
+
+Current design is 'top'.
+Using operating conditions 'ss0p75v125c' found in library 'saed32hvt_ss0p75v125c'.
+
+Information: There are 2 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'multiply_reg_DATA_WIDTH4'
+  Processing 'decode_reg_DATA_WIDTH4'
+  Processing 'sync_reg_DATA_WIDTH4'
+  Processing 'div_cnt'
+  Processing 'shift_reg_DATA_WIDTH4'
+  Processing 'top'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     170.8      0.00       0.0       2.3                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 300)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+    0:00:02     166.7      0.00       0.0       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p75v125c.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db'
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+report_timing command
+check_timing command
+report_qor command
+report_constraint command (PWR-6, PWR-414, PWR-415 Warnings are ok)
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/top.vg'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/top.sdf'. (WT-3)
+1
+dc_shell> source ../scripts/S_RTL_1.tcl
+Removing design 'top'
+Removing design 'shift_reg_DATA_WIDTH4'
+Removing design 'div_cnt'
+Removing design 'sync_reg_DATA_WIDTH4'
+Removing design 'decode_reg_DATA_WIDTH4'
+Removing design 'multiply_reg_DATA_WIDTH4'
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file ../rtl/S_RTL_1.sv
+Warning:  ../rtl/S_RTL_1.sv:18: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Presto compilation completed successfully.
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+Error: Current design is not defined. (UID-4)
+  Loading link library 'saed32rvt_ff1p16v125c'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine sync_counter line 47 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      shift_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 53 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      synch_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 61 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     decode_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 67 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    multiply_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 72 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sync_counter'.
+Current design is 'sync_counter'.
+
+  Loading target library 'saed32rvt_ff1p16v125c'
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'sync_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 9000)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 5
+Number_of_outputs 4
+Number_of_sequentials 18
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Wed Mar 13 17:45:18 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U4                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U5                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U6                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U7                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U8                        OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  so
+U9                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U10                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U11                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U13                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U14                       NOR2X0_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U15                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U16                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U17                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U18                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U19                       XNOR2X1_RVT     saed32rvt_ff1p16v125c
+                                                             4.320  so
+count_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+count_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n, so
+decode_reg[0]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[1]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[2]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[3]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[0]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[1]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[2]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[3]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+--------------------------------------------------------------------------------
+Total 34 cells                                             153.757
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/S_RTL_1_netlist.v'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/rtl1.sdf'. (WT-3)
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> source ../scripts/S_RTL_1.tcl
+Removing design 'sync_counter'
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file ../rtl/S_RTL_1.sv
+Warning:  ../rtl/S_RTL_1.sv:18: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Presto compilation completed successfully.
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine sync_counter line 47 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      shift_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 53 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      synch_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 61 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     decode_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 67 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    multiply_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 72 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sync_counter'.
+Current design is 'sync_counter'.
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'sync_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 9000)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     155.0      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+    0:00:01     153.8      0.00       0.0       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 5
+Number_of_outputs 4
+Number_of_sequentials 18
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Wed Mar 13 17:47:29 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U4                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U5                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U6                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U7                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U8                        OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  so
+U9                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U10                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U11                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U13                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U14                       NOR2X0_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U15                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U16                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U17                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U18                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U19                       XNOR2X1_RVT     saed32rvt_ff1p16v125c
+                                                             4.320  so
+count_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+count_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n, so
+decode_reg[0]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[1]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[2]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[3]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[0]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[1]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[2]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[3]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+--------------------------------------------------------------------------------
+Total 34 cells                                             153.757
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/S_RTL_1_netlist.v'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/rtl1.sdf'. (WT-3)
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> source ../scripts/S_RTL_1.tcl
+Removing design 'sync_counter'
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file ../rtl/S_RTL_1.sv
+Warning:  ../rtl/S_RTL_1.sv:18: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Presto compilation completed successfully.
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine sync_counter line 47 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      shift_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 53 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      synch_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 61 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     decode_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 67 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    multiply_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 72 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sync_counter'.
+Current design is 'sync_counter'.
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'sync_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 9000)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     155.0      0.00       0.0       0.0                          
+    0:00:00     153.8      0.00       0.0       0.0                          
+    0:00:00     153.8      0.00       0.0       0.0                          
+    0:00:00     153.8      0.00       0.0       0.0                          
+    0:00:00     153.8      0.00       0.0       0.0                          
+    0:00:00     153.8      0.00       0.0       0.0                          
+    0:00:00     153.8      0.00       0.0       0.0                          
+    0:00:00     153.8      0.00       0.0       0.0                          
+    0:00:00     153.8      0.00       0.0       0.0                          
+    0:00:00     153.8      0.00       0.0       0.0                          
+    0:00:00     153.8      0.00       0.0       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 5
+Number_of_outputs 4
+Number_of_sequentials 18
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Wed Mar 13 17:50:06 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U4                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U5                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U6                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U7                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U8                        OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  so
+U9                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U10                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U11                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U13                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U14                       NOR2X0_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U15                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U16                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U17                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U18                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U19                       XNOR2X1_RVT     saed32rvt_ff1p16v125c
+                                                             4.320  so
+count_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+count_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n, so
+decode_reg[0]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[1]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[2]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[3]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[0]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[1]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[2]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[3]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+--------------------------------------------------------------------------------
+Total 34 cells                                             153.757
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/S_RTL_1_netlist.v'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/rtl1.sdf'. (WT-3)
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> source ../scripts/S_RTL_1.tcl
+Removing design 'sync_counter'
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file ../rtl/S_RTL_1.sv
+Warning:  ../rtl/S_RTL_1.sv:18: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Presto compilation completed successfully.
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine sync_counter line 47 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      shift_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 53 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      synch_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 61 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     decode_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 67 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    multiply_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 72 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sync_counter'.
+Current design is 'sync_counter'.
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'sync_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 9000)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     157.1      0.03       0.1       0.0                          
+    0:00:01     155.8      0.03       0.1       0.0                          
+    0:00:01     155.8      0.03       0.1       0.0                          
+    0:00:01     155.8      0.03       0.1       0.0                          
+    0:00:01     155.8      0.03       0.1       0.0                          
+    0:00:01     155.8      0.03       0.1       0.0                          
+    0:00:01     155.8      0.03       0.1       0.0                          
+    0:00:01     155.8      0.03       0.1       0.0                          
+    0:00:01     155.8      0.03       0.1       0.0                          
+    0:00:01     155.8      0.03       0.1       0.0                          
+    0:00:01     155.8      0.03       0.1       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 5
+Number_of_outputs 4
+Number_of_sequentials 18
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Wed Mar 13 17:51:34 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U4                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U5                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U6                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U7                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U8                        OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  so
+U9                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U10                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U11                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U13                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U14                       NOR2X0_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U15                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U16                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U17                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U18                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U19                       XNOR2X1_RVT     saed32rvt_ff1p16v125c
+                                                             4.320  so
+U20                       NBUFFX2_RVT     saed32rvt_ff1p16v125c
+                                                             2.033  
+count_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+count_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n, so
+decode_reg[0]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[1]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[2]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[3]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[0]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[1]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[2]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[3]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+--------------------------------------------------------------------------------
+Total 35 cells                                             155.790
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/S_RTL_1_netlist.v'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/rtl1.sdf'. (WT-3)
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> source ../scripts/S_RTL_1.tcl
+Removing design 'sync_counter'
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file ../rtl/S_RTL_1.sv
+Warning:  ../rtl/S_RTL_1.sv:18: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Presto compilation completed successfully.
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine sync_counter line 47 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      shift_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 53 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      synch_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 61 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     decode_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 67 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    multiply_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 72 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sync_counter'.
+Current design is 'sync_counter'.
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'sync_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 9000)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     157.8      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 5
+Number_of_outputs 4
+Number_of_sequentials 18
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Wed Mar 13 17:54:40 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U4                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U5                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U6                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U7                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U8                        OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  so
+U15                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U16                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U17                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U18                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U19                       XNOR2X1_RVT     saed32rvt_ff1p16v125c
+                                                             4.320  so
+U20                       NBUFFX2_RVT     saed32rvt_ff1p16v125c
+                                                             2.033  
+U21                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U22                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U23                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U24                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U25                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U26                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+count_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+count_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n, so
+decode_reg[0]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[1]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[2]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[3]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[0]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[1]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[2]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[3]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+--------------------------------------------------------------------------------
+Total 36 cells                                             156.553
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/S_RTL_1_netlist.v'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/rtl1.sdf'. (WT-3)
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> source ../scripts/S_RTL_1.tcl
+Removing design 'sync_counter'
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file ../rtl/S_RTL_1.sv
+Warning:  ../rtl/S_RTL_1.sv:18: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Presto compilation completed successfully.
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine sync_counter line 47 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      shift_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 53 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      synch_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 61 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     decode_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 67 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    multiply_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 72 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sync_counter'.
+Current design is 'sync_counter'.
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'sync_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 9000)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     159.1      0.03       0.2       0.0                          
+    0:00:01     157.8      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+    0:00:01     156.6      0.03       0.2       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 5
+Number_of_outputs 4
+Number_of_sequentials 18
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Wed Mar 13 17:55:30 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U4                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U5                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U6                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U7                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U8                        OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  so
+U15                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U16                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U17                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U18                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U19                       XNOR2X1_RVT     saed32rvt_ff1p16v125c
+                                                             4.320  so
+U20                       NBUFFX2_RVT     saed32rvt_ff1p16v125c
+                                                             2.033  
+U21                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U22                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U23                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U24                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U25                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U26                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+count_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+count_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n, so
+decode_reg[0]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[1]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[2]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[3]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[0]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[1]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[2]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[3]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+--------------------------------------------------------------------------------
+Total 36 cells                                             156.553
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/S_RTL_1_netlist.v'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/rtl1.sdf'. (WT-3)
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> source ../scripts/S_RTL_1.tcl
+Removing design 'sync_counter'
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file ../rtl/S_RTL_1.sv
+Warning:  ../rtl/S_RTL_1.sv:18: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Presto compilation completed successfully.
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine sync_counter line 47 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      shift_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 53 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      synch_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 61 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     decode_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 67 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    multiply_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 72 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sync_counter'.
+Current design is 'sync_counter'.
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'sync_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: compile falsified 4 infeasible paths. (OPT-1720)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 9000)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     159.1      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 5
+Number_of_outputs 4
+Number_of_sequentials 18
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Wed Mar 13 17:58:40 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U4                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U5                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U6                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U7                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U8                        OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U15                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U16                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U17                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U18                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U19                       XNOR2X1_RVT     saed32rvt_ff1p16v125c
+                                                             4.320  so
+U20                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U21                       NBUFFX2_RVT     saed32rvt_ff1p16v125c
+                                                             2.033  
+U22                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  so
+U23                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U24                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U25                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U26                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U27                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+count_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+count_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n, so
+decode_reg[0]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[1]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[2]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[3]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[0]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[1]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[2]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[3]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+--------------------------------------------------------------------------------
+Total 37 cells                                             157.823
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/S_RTL_1_netlist.v'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/rtl1.sdf'. (WT-3)
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> source ../scripts/S_RTL_1.tcl
+Removing design 'sync_counter'
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file ../rtl/S_RTL_1.sv
+Warning:  ../rtl/S_RTL_1.sv:18: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Presto compilation completed successfully.
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine sync_counter line 47 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      shift_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 53 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      synch_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 61 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     decode_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 67 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    multiply_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 72 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sync_counter'.
+Current design is 'sync_counter'.
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'sync_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: compile falsified 4 infeasible paths. (OPT-1720)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 9000)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     159.1      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 5
+Number_of_outputs 4
+Number_of_sequentials 18
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Wed Mar 13 18:01:37 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U4                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U5                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U6                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U7                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U8                        OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U15                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U16                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U17                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U18                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U19                       XNOR2X1_RVT     saed32rvt_ff1p16v125c
+                                                             4.320  so
+U20                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U21                       NBUFFX2_RVT     saed32rvt_ff1p16v125c
+                                                             2.033  
+U22                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  so
+U23                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U24                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U25                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U26                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U27                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+count_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+count_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n, so
+decode_reg[0]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[1]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[2]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[3]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[0]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[1]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[2]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[3]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+--------------------------------------------------------------------------------
+Total 37 cells                                             157.823
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/S_RTL_1_netlist.v'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/rtl1.sdf'. (WT-3)
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> source ../scripts/S_RTL_1.tcl
+Removing design 'sync_counter'
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+Compiling source file ../rtl/S_RTL_1.sv
+Warning:  ../rtl/S_RTL_1.sv:18: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Presto compilation completed successfully.
+Error: Current design is not defined. (UID-4)
+Running PRESTO HDLC
+
+Inferred memory devices in process
+        in routine sync_counter line 47 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      shift_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 53 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      synch_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 61 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     decode_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 67 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    multiply_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine sync_counter line 72 in file
+                '../rtl/S_RTL_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'sync_counter'.
+Current design is 'sync_counter'.
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'sync_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: compile falsified 4 infeasible paths. (OPT-1720)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 9000)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     160.4      0.20       0.8       0.0                          
+    0:00:01     159.1      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+    0:00:01     157.8      0.20       0.8       0.0                          
+Loading db file '/pkgs/synopsys/2016/libs/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16v125c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Number_of_inputs 5
+Number_of_outputs 4
+Number_of_sequentials 18
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : sync_counter
+Version: L-2016.03-SP3
+Date   : Wed Mar 13 18:03:45 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U4                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U5                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U6                        AO22X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.541  
+U7                        INVX0_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U8                        OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U15                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U16                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U17                       OR2X1_RVT       saed32rvt_ff1p16v125c
+                                                             2.033  
+U18                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U19                       XNOR2X1_RVT     saed32rvt_ff1p16v125c
+                                                             4.320  so
+U20                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U21                       NBUFFX2_RVT     saed32rvt_ff1p16v125c
+                                                             2.033  
+U22                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  so
+U23                       INVX1_RVT       saed32rvt_ff1p16v125c
+                                                             1.271  
+U24                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U25                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+U26                       AND2X1_RVT      saed32rvt_ff1p16v125c
+                                                             2.033  
+U27                       NAND2X0_RVT     saed32rvt_ff1p16v125c
+                                                             1.525  
+count_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+count_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n, so
+decode_reg[0]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[1]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[2]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+decode_reg[3]             DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[0]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[1]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[2]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+multiply_reg[3]           DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+shift_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[0]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[1]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[2]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+synch_reg[3]              DFFX1_RVT       saed32rvt_ff1p16v125c
+                                                             6.608  n
+--------------------------------------------------------------------------------
+Total 37 cells                                             157.823
+Writing verilog file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/work/S_RTL_1_netlist.v'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/u/thermant/ECE_4_581_WINTER_2018/ECE_4_581_WINTER_2018/Final_Project/S_RTL_1/reports/rtl1.sdf'. (WT-3)
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
+dc_shell> 
