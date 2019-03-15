@@ -48,25 +48,25 @@ set_input_delay 0.1 -clock [get_clocks clkA] [get_ports cntrlAB]
 set_input_delay 0.1 -clock [get_clocks clkA] [get_ports cntrlCD]
 set_input_delay 0.1 -clock [get_clocks clkA] [get_ports di]
 
-set_input_delay 0.1 -clock [get_clocks clkB] [get_ports rst]
-set_input_delay 0.1 -clock [get_clocks clkB] [get_ports cntrlAB]
-set_input_delay 0.1 -clock [get_clocks clkB] [get_ports cntrlCD]
-set_input_delay 0.1 -clock [get_clocks clkB] [get_ports di]
+set_input_delay 0.1 -clock [get_clocks clkB] [get_ports rst]	-add
+set_input_delay 0.1 -clock [get_clocks clkB] [get_ports cntrlAB] -add
+set_input_delay 0.1 -clock [get_clocks clkB] [get_ports cntrlCD] -add
+set_input_delay 0.1 -clock [get_clocks clkB] [get_ports di]		-add
 
-set_input_delay 0.1 -clock [get_clocks clkC] [get_ports rst]
-set_input_delay 0.1 -clock [get_clocks clkC] [get_ports cntrlAB]
-set_input_delay 0.1 -clock [get_clocks clkC] [get_ports cntrlCD]
-set_input_delay 0.1 -clock [get_clocks clkC] [get_ports di]
+set_input_delay 0.1 -clock [get_clocks clkC] [get_ports rst]	-add
+set_input_delay 0.1 -clock [get_clocks clkC] [get_ports cntrlAB] -add
+set_input_delay 0.1 -clock [get_clocks clkC] [get_ports cntrlCD] -add
+set_input_delay 0.1 -clock [get_clocks clkC] [get_ports di]		-add
 
-set_input_delay 0.1 -clock [get_clocks clkD] [get_ports rst]
-set_input_delay 0.1 -clock [get_clocks clkD] [get_ports cntrlAB]
-set_input_delay 0.1 -clock [get_clocks clkD] [get_ports cntrlCD]
-set_input_delay 0.1 -clock [get_clocks clkD] [get_ports di]
+set_input_delay 0.1 -clock [get_clocks clkD] [get_ports rst]	-add
+set_input_delay 0.1 -clock [get_clocks clkD] [get_ports cntrlAB] -add
+set_input_delay 0.1 -clock [get_clocks clkD] [get_ports cntrlCD] -add
+set_input_delay 0.1 -clock [get_clocks clkD] [get_ports di]		-add
 
-set_output_delay 0.1 -clock [get_clocks clkA] [all_outputs]
-set_output_delay 0.1 -clock [get_clocks clkB] [all_outputs]
-set_output_delay 0.1 -clock [get_clocks clkC] [all_outputs]
-set_output_delay 0.1 -clock [get_clocks clkD] [all_outputs]
+set_output_delay 0.1 -clock [get_clocks clkA] [all_outputs]		
+set_output_delay 0.1 -clock [get_clocks clkB] [all_outputs]		-add
+set_output_delay 0.1 -clock [get_clocks clkC] [all_outputs]		-add
+set_output_delay 0.1 -clock [get_clocks clkD] [all_outputs]		-add
 # compile map the sequential cell exactly as in the rtl
 # compile -exact_map -ungroup_all
 compile -exact_map
